@@ -1,22 +1,58 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Link, { withPrefix } from 'gatsby-link';
+import styled from '@emotion/styled';
+import { css } from '@emotion/core';
+import colors from '../../util/colors';
 import { speakersClass } from './';
 import Person from '../Icons/Person';
 
+const StyledSpeakers = styled.div`
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  text-align: center;
+`;
+
+const StyledDivider = styled.div`
+  width: 40%;
+  border-bottom: 5px solid ${colors.primary};
+  margin: 4rem auto;
+`;
+
+const StyledTalkTitle = styled.div`
+  text-align: center;
+`;
+
+const StyledSpeaker = styled.div`
+  text-align: center;
+  flex: 1 30%;
+  margin: 0 1rem;
+`;
+
+const StyledSpeakerImage = styled.image`
+  border-radius: 50%;
+  height: 160px;
+`;
+
 const Speaker = ({ speaker }) => {
   return (
-    <div {...speakersClass('speaker')}>
-      <span key="speaker-img" {...speakersClass('speaker-image')}>
+    <StyledSpeaker>
+      <span>
         {speaker.pic ? (
-          <img src={withPrefix(`/static/pics/${speaker.pic}`)} />
+          <StyledSpeakerImage src={withPrefix(`/static/pics/${speaker.pic}`)} />
         ) : (
-          <Person />
+          <Person
+            css={css`
+              heigt: 160px;
+            `}
+          />
         )}
       </span>
-      <h3 key="speaker-name">{speaker.name}</h3>
-      <p key="speaker-bio">{speaker.bio}</p>
-    </div>
+      <h3>{speaker.name}</h3>
+      <p>{speaker.bio}</p>
+    </StyledSpeaker>
   );
 };
 
@@ -30,14 +66,14 @@ Speaker.propTypes = {
 
 const Speakers = ({ talk: { speakers, title }, talkKey }) => {
   return (
-    <div id={talkKey} {...speakersClass()}>
-      <div {...speakersClass('divider')} />
-      <h2 {...speakersClass('talk-title')}>{title}</h2>
-      <div {...speakersClass('container')}>
+    <div id={talkKey}>
+      <StyledDivider />
+      <StyledTalkTitle>{title}</StyledTalkTitle>
+      <StyledSpeakers>
         {speakers.map(speaker => (
           <Speaker key={speaker.name} speaker={speaker} />
         ))}
-      </div>
+      </StyledSpeakers>
     </div>
   );
 };

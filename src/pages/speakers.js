@@ -16,12 +16,8 @@ const SpeakersPage = props => {
     <div {...classes('', 'speakers')}>
       <h1>Talere</h1>
       <ButtonGroup>
-        <Link to="/">
-          Forside
-        </Link>
-        <Link to="/schedule/">
-          Skjema
-        </Link>
+        <Link to="/">Forside</Link>
+        <Link to="/schedule/">Skjema</Link>
       </ButtonGroup>
       <div {...classes('container')}>
         {Object.keys(viewmodel.talks).map(key => (

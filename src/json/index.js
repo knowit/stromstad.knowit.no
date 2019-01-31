@@ -75,15 +75,13 @@ const viewmodel = {
           pic: 'ckj.jpg',
         },
       ],
-      title: "Internmøte",
+      title: 'Internmøte',
       type: 'Talk',
       description:
         'Knowit Objectnet må hele tiden tilpasse seg markedet. Vi går fra å være teknologileverandør til partner med kundene våre. Hvilke nye ting driver vi med?',
     },
   },
-  villages: [
-    {name: 'Test village', markdown: 'testvillage.md'},
-  ]
+  villages: [{ name: 'Test village', markdown: 'testvillage.md' }],
 };
 
 export default viewmodel;

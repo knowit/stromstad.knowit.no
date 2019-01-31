@@ -1,16 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from '@emotion/styled';
-import {
-  StyledSlot,
-  StyledSlotTime,
-  StyledSlotTitle,
-} from './SlotStyles';
+import { StyledSlot, StyledSlotTime, StyledSlotTitle } from './SlotStyles';
 
 const StyledSpan = styled.span`
-    padding: 2rem;
-    display: inline-block;
-`
+  padding: 2rem;
+  display: inline-block;
+`;
 
 const OtherSlot = ({ collection }) => {
   return (

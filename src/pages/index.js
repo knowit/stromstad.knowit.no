@@ -20,65 +20,61 @@ const StyledIntroContent = styled.div`
     display: block;
     padding-top: 2rem;
   }
-`
+`;
 
 const StyledLogo = styled.img`
   width: 200px;
   margin: 0 auto;
   height: 200px;
-`
+`;
 
 const StyledContent = styled.div`
   min-height: 100vh;
   width: 100vw;
   display: flex;
   flex-flow: column;
-`
+`;
 
 const StyledContentInfo = styled.div`
   min-height: 50vh;
   text-align: center;
   background-color: white;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-`
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+`;
 
 const IndexPage = () => (
   <Layout>
     <StyledContent>
-    <StyledIntroContent>
-      <StyledLogo src="./static/ljubljana_logo.png" />
-      <h1>{viewmodel.title}</h1>
-      <div>
-        <Paragraph color="white">Tid: {viewmodel.event.date}</Paragraph>
-        <Paragraph color="white">
-          Sted: {viewmodel.event.city}, {viewmodel.event.country}
+      <StyledIntroContent>
+        <StyledLogo src="./static/ljubljana_logo.png" />
+        <h1>{viewmodel.title}</h1>
+        <div>
+          <Paragraph color="white">Tid: {viewmodel.event.date}</Paragraph>
+          <Paragraph color="white">
+            Sted: {viewmodel.event.city}, {viewmodel.event.country}
+          </Paragraph>
+        </div>
+        <ButtonGroup>
+          <Link to="/speakers/">Talere</Link>
+          <Link to="/schedule/">Skjema</Link>
+        </ButtonGroup>
+        <a href="#info">
+          <Arrow />
+        </a>
+      </StyledIntroContent>
+      <StyledContentInfo id="info">
+        <h2>Informasjon</h2>
+        <Paragraph>
+          Knowit Objectnet arrangerer to fagseminarer årlig. Det er de ansatte
+          selv som lager programmet. Våren 2019 vil den bli avholdt 21. Mars -
+          22. Mars 2019 i Strømstad, Sverige.
         </Paragraph>
-      </div>
-      <ButtonGroup>
-        <Link to="/speakers/">
-          Talere
-        </Link>
-        <Link to="/schedule/">
-          Skjema
-        </Link>
-      </ButtonGroup>
-      <a href="#info">
-        <Arrow />
-      </a>
-    </StyledIntroContent>
-    <StyledContentInfo id="info">
-      <h2>Informasjon</h2>
-      <Paragraph>
-        Knowit Objectnet arrangerer to fagseminarer årlig. Det er de ansatte
-        selv som lager programmet. Våren 2019 vil den bli avholdt 21. Mars -
-        22. Mars 2019 i Strømstad, Sverige.
-      </Paragraph>
-      <Paragraph>
-        Tidligere har vi besøkt Berlin, Istanbul, Madrid, Dublin, Svalbard,
-        Reykjavik, Palma, Ljubljana etc.
-      </Paragraph>
-    </StyledContentInfo>
-    <CodeOfConduct />
+        <Paragraph>
+          Tidligere har vi besøkt Berlin, Istanbul, Madrid, Dublin, Svalbard,
+          Reykjavik, Palma, Ljubljana etc.
+        </Paragraph>
+      </StyledContentInfo>
+      <CodeOfConduct />
     </StyledContent>
   </Layout>
 );

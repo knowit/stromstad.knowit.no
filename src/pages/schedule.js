@@ -1,22 +1,22 @@
 import React from 'react';
 import Link from 'gatsby-link';
 import styled from '@emotion/styled';
-import { css } from '@emotion/core'
+import { css } from '@emotion/core';
 import viewmodel from '../json';
 import Paragraph from '../components/Paragraph';
 import ButtonGroup from '../components/ButtonGroup';
 import Button from '../components/Button';
 import Slot from '../components/Slot';
 import Content, { ContentContainer } from '../components/Content';
-import colors  from '../util/colors';
+import colors from '../util/colors';
 
 const buttonGroupStyle = css`
   margin: 2rem auto;
-`
+`;
 
 const StyledHeader = styled.h1`
-    margin: 0 auto;
-`
+  margin: 0 auto;
+`;
 
 class SchedulePage extends React.Component {
   constructor() {
@@ -43,12 +43,8 @@ class SchedulePage extends React.Component {
       <Content backgroundColor={colors.greyLightest}>
         <StyledHeader>Skjema</StyledHeader>
         <ButtonGroup css={buttonGroupStyle}>
-          <Link to="/">
-            Forside
-          </Link>
-          <Link to="/speakers/">
-            Talere
-          </Link>
+          <Link to="/">Forside</Link>
+          <Link to="/speakers/">Talere</Link>
         </ButtonGroup>
         <ButtonGroup css={buttonGroupStyle}>
           {viewmodel.schedules.map((day, index) => (

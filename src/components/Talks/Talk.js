@@ -1,37 +1,37 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from '@emotion/styled';
-import colors from '../../util/colors'
-import mediaQueries from '../../util/mediaQueries'
+import colors from '../../util/colors';
+import mediaQueries from '../../util/mediaQueries';
 import viewmodel from '../../json';
 import TalkDescription from './TalkDescription';
 import TalkSpeaker from './TalkSpeaker';
 
 const StyledTalkPause = styled.div`
-    padding: 1rem 1rem;
-    text-align: center;
-    font-weight: bold;
-    width: 100%;
-    background-color: ${colors.greyLight};
-    margin: 1rem -1rem;
-`
+  padding: 1rem 1rem;
+  text-align: center;
+  font-weight: bold;
+  width: 100%;
+  background-color: ${colors.greyLight};
+  margin: 1rem -1rem;
+`;
 
 const StyledTalk = styled.div`
-    margin-top: 3rem;
-    display: flex;
-`
+  margin-top: 3rem;
+  display: flex;
+`;
 
 const StyledTalkInfo = styled.div`
-    display: inline-block;
-    margin-left: 2rem;
-    width: 85%;
+  display: inline-block;
+  margin-left: 2rem;
+  width: 85%;
 `;
 
 const StyledTalkSpeakers = styled.strong`
-    display: inline-block;
-    text-align: center;
-    width: 15%;
-`
+  display: inline-block;
+  text-align: center;
+  width: 15%;
+`;
 
 class Talk extends React.Component {
   constructor() {

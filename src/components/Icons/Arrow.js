@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Arrow = ({...rest}) => {
+const Arrow = ({ ...rest }) => {
   return (
     <svg
       {...rest}

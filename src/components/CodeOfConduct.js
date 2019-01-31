@@ -3,17 +3,16 @@ import styled from '@emotion/styled';
 import spacing from '../util/spacing';
 import Button from './Button';
 
-
 const StyledCodeOfConduct = styled.div`
   margin-bottom: 2rem;
   text-align: center;
 `;
 
 const StyledCodeOfConductText = styled.p`
-    display: block;
-    max-width: 40%;
-    margin: ${spacing.small} auto;
-    display: ${p => p.hidden ? 'none' : 'block'};
+  display: block;
+  max-width: 40%;
+  margin: ${spacing.small} auto;
+  display: ${p => (p.hidden ? 'none' : 'block')};
 `;
 
 class CodeOfConduct extends React.Component {

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Person = ({...rest}) => {
+const Person = ({ ...rest }) => {
   return (
     <svg
       {...rest}

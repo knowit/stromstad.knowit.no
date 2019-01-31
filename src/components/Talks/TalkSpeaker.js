@@ -4,44 +4,46 @@ import Link, { withPrefix } from 'gatsby-link';
 import styled from '@emotion/styled';
 import { css } from '@emotion/core';
 import Talk from './Talk';
-import colors from '../../util/colors'
-import mediaQueries from '../../util/mediaQueries'
+import colors from '../../util/colors';
+import mediaQueries from '../../util/mediaQueries';
 import Person from '../Icons/Person';
 
 const StyledTalkSpeakerImage = styled.img`
-    height: 60px;
-    border-radius: 50%;
-`
+  height: 60px;
+  border-radius: 50%;
+`;
 
 const personIconStyle = css`
-      width: 60px;
-      height: 60px;
-`
+  width: 60px;
+  height: 60px;
+`;
 
 const talkSpeakerNameStyle = css`
-    font-size: 0.8rem;
-    display: block;
-    font-weight: bold;
-    color: black;
+  font-size: 0.8rem;
+  display: block;
+  font-weight: bold;
+  color: black;
 
-    &:hover,
-    &:focus {
-      color: black;
-    }
-`
+  &:hover,
+  &:focus {
+    color: black;
+  }
+`;
 
 const StyledTalkSpeakerImageContainer = styled.span`
-    display: inline-block;;
-`
+  display: inline-block;
+`;
 
 const TalkSpeaker = ({ speaker, numberOfSpeakers, talkId }) => {
   return (
     <div>
       <StyledTalkSpeakerImageContainer>
         {speaker.pic ? (
-          <StyledTalkSpeakerImage src={withPrefix(`/static/pics/${speaker.pic}`)} />
+          <StyledTalkSpeakerImage
+            src={withPrefix(`/static/pics/${speaker.pic}`)}
+          />
         ) : (
-          <Person css={personIconStyle}/>
+          <Person css={personIconStyle} />
         )}
       </StyledTalkSpeakerImageContainer>
       <Link css={talkSpeakerNameStyle} to={`/speakers#${talkId}`}>
