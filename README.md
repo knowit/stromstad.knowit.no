@@ -32,3 +32,9 @@ To deploy, run:
 ```
 yarn deploy
 ```
+
+
+**Important libraries used:**
+- React (https://reactjs.org/)
+- Gatsby (https://www.gatsbyjs.org/)
+- Emotion (https://emotion.sh/)
