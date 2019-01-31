@@ -1,0 +1,26 @@
+/**
+ * Copyright (c) 2017-present, NDLA.
+ *
+ * This source code is licensed under the GPLv3 license found in the
+ * LICENSE file in the root directory of this source tree.
+ *
+ */
+
+:root {
+  --gray-1: #dedede;
+  --gray-2: #f8f8f8;
+  --purple-1: #b7b7dd;
+  --light-blue: #c1d1e0;
+  --dark-blue: #376fa3;
+  --knowit-green: #49b0a4;
+
+  --main-color: #50b5aa;
+  --main-color-other: #67cc90;
+  @custom-media --xxlarge-viewport (min-width: 1800px);
+
+  @custom-media --xlarge-viewport (min-width: 1200px);
+  @custom-media --large-viewport (min-width: 800px);
+  @custom-media --medium-viewport (max-width: 800px);
+  @custom-media --small-viewport (max-width: 600px);
+  @custom-media --xsmall-viewport (max-width: 400px);
+}

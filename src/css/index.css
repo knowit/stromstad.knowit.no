@@ -1,0 +1,77 @@
+@import './vars.css';
+@import './content.css';
+@import './slots.css';
+@import './speakers.css';
+
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+svg {
+  width: 30px;
+  height: 30px;
+}
+
+.google-maps-wrapper {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+.google-maps-blocker {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.google-maps-content {
+  width: 350px;
+  height: 180px;
+  padding: 20px;
+  top: 0.5rem;
+  left: 0.5rem;
+  position: absolute;
+  text-align: left;
+  background: white;
+  border: 1px solid var(--gray-1);
+}
+
+.google-maps {
+  height: 100vh;
+  width: 100vw;
+  border: none;
+}
+
+.c-schedule-transition-enter {
+  opacity: 0.01;
+}
+
+.c-schedule-transition-enter.c-schedule-transition-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.c-schedule-transition-leave {
+  opacity: 1;
+}
+
+.c-schedule-transition-leave.c-schedule-transition-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
+
+@media (--medium-viewport) {
+  .google-maps-content {
+    width: 60%;
+    height: 240px;
+  }
+
+  .c-code-of-conduct {
+    &__text {
+      max-width: 90%;
+    }
+  }
+}
