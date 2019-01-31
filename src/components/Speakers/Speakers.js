@@ -31,9 +31,9 @@ const StyledSpeaker = styled.div`
   margin: 0 1rem;
 `;
 
-const StyledSpeakerImage = styled.image`
-  border-radius: 50%;
+const StyledSpeakerImage = styled.img`
   height: 160px;
+  border-bottom: 3px solid ${colors.primary};
 `;
 
 const Speaker = ({ speaker }) => {

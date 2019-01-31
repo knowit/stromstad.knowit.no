@@ -9,8 +9,8 @@ import mediaQueries from '../../util/mediaQueries';
 import Person from '../Icons/Person';
 
 const StyledTalkSpeakerImage = styled.img`
-  height: 60px;
-  border-radius: 50%;
+  height: 100px;
+  border-bottom: 3px solid ${colors.primary};
 `;
 
 const personIconStyle = css`
