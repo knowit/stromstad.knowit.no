@@ -2,6 +2,7 @@ import React from 'react';
 import styled from '@emotion/styled';
 import spacing from '../util/spacing';
 import Button from './Button';
+import mediaQueries from '../util/mediaQueries';
 
 const StyledCodeOfConduct = styled.div`
   margin-bottom: 2rem;
@@ -13,7 +14,13 @@ const StyledCodeOfConductText = styled.p`
   max-width: 40%;
   margin: ${spacing.small} auto;
   display: ${p => (p.hidden ? 'none' : 'block')};
+
+  @media (${mediaQueries.medium}) {
+      max-width: 90%;
+  }
 `;
+
+
 
 class CodeOfConduct extends React.Component {
   constructor() {

@@ -1,7 +1,6 @@
 @import './vars.css';
 @import './content.css';
 @import './slots.css';
-@import './speakers.css';
 
 body {
   margin: 0;
@@ -67,11 +66,5 @@ svg {
   .google-maps-content {
     width: 60%;
     height: 240px;
-  }
-
-  .c-code-of-conduct {
-    &__text {
-      max-width: 90%;
-    }
   }
 }
