@@ -55,7 +55,7 @@ const IndexPage = () => (
           </Paragraph>
         </div>
         <ButtonGroup>
-          <Link to="/speakers/">Talere</Link>
+          <Link to="/villages/">Villages</Link>
           <Link to="/schedule/">Skjema</Link>
         </ButtonGroup>
         <a href="#info">

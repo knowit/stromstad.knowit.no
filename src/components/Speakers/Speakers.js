@@ -4,7 +4,6 @@ import Link, { withPrefix } from 'gatsby-link';
 import styled from '@emotion/styled';
 import { css } from '@emotion/core';
 import colors from '../../util/colors';
-import { speakersClass } from './';
 import Person from '../Icons/Person';
 
 const StyledSpeakers = styled.div`

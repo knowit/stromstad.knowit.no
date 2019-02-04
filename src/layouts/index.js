@@ -1,16 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
-import BEMHelper from 'react-bem-helper';
-
 import Header from '../components/Header';
 import '../css/index.css';
 import viewmodel from '../json';
-
-export const classes = new BEMHelper({
-  name: 'content',
-  prefix: 'c-',
-});
 
 const DefaultLayout = ({ children }) => {
   return (

@@ -7,6 +7,7 @@ import Speakers from '../components/Speakers';
 import ButtonGroup from '../components/ButtonGroup';
 import Content, { ContentContainer } from '../components/Content';
 import colors from '../util/colors';
+import VillageMarkdown from '../components/Villages/VillageMarkdown';
 
 const buttonGroupStyle = css`
   margin: 2rem auto;
@@ -16,23 +17,23 @@ const StyledHeader = styled.h1`
   margin: 0 auto;
 `;
 
-const SpeakersPage = props => {
-  const hash = props.location.hash;
+const VillagesPage = props => {
   return (
     <Content backgroundColor={colors.greyLightest}>
       <StyledHeader>Talere</StyledHeader>
       <ButtonGroup css={buttonGroupStyle}>
         <Link to="/">Forside</Link>
         <Link to="/schedule/">Skjema</Link>
-        <Link to="/villages/">Villages</Link>
       </ButtonGroup>
       <ContentContainer>
-        {Object.keys(viewmodel.talks).map(key => (
-          <Speakers key={key} talk={viewmodel.talks[key]} talkKey={key} />
-        ))}
+        <ul>
+        {viewmodel.villages.map(village => {
+          return <li><Link to={`/village/${village.id}`}>{village.name}</Link></li>
+        })}
+        </ul>
       </ContentContainer>
     </Content>
   );
 };
 
-export default SpeakersPage;
+export default VillagesPage;

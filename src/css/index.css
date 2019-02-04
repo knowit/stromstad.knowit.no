@@ -1,6 +1,4 @@
 @import './vars.css';
-@import './content.css';
-@import './slots.css';
 
 body {
   margin: 0;
