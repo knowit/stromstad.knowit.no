@@ -1,4 +1,4 @@
-# Knowit Ljubljana
+# Knowit Strømstad
 
 Created with [Gatsby](https://www.gatsbyjs.org/).
 
