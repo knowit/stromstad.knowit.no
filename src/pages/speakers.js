@@ -30,7 +30,6 @@ const linkStyle = css`
 `;
 
 const SpeakersPage = props => {
-  const hash = props.location.hash;
   return (
     <Content backgroundColor={colors.greyLightest}>
       <StyledHeader>Talere</StyledHeader>

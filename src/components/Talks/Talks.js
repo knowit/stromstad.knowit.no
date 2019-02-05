@@ -41,7 +41,7 @@ const Talks = ({ collectionTitle, entry, columnSize }) => {
 };
 
 Talks.propTypes = {
-  collectionTitle: PropTypes.string.isRequired,
+  collectionTitle: PropTypes.string,
   entry: PropTypes.object,
 };
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Link, { withPrefix } from 'gatsby-link';
+import { withPrefix } from 'gatsby-link';
 import styled from '@emotion/styled';
 import { css } from '@emotion/core';
 import colors from '../../util/colors';

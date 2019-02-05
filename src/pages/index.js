@@ -3,6 +3,7 @@ import Link from 'gatsby-link';
 import styled from '@emotion/styled';
 import { css } from '@emotion/core';
 import viewmodel from '../json';
+import Content from '../components/Content';
 import Paragraph from '../components/Paragraph';
 import ButtonGroup from '../components/ButtonGroup';
 import Arrow from '../components/Icons/Arrow';
@@ -32,13 +33,6 @@ const StyledLogo = styled.img`
   height: 200px;
 `;
 
-const StyledContent = styled.div`
-  min-height: 100vh;
-  width: 100vw;
-  display: flex;
-  flex-flow: column;
-`;
-
 const StyledContentInfo = styled.div`
   min-height: 50vh;
   text-align: center;
@@ -50,6 +44,7 @@ const linkStyle = css`
   text-transform: uppercase;
   font-size: 1.2rem;
   text-transform: uppercase;
+  color: white;
 
   &:hover,
   &:focus,
@@ -60,7 +55,7 @@ const linkStyle = css`
 
 const IndexPage = () => (
   <Layout>
-    <StyledContent>
+    <Content>
       <StyledIntroContent>
         <StyledLogo src="./static/ljubljana_logo.png" />
         <h1>{viewmodel.title}</h1>
@@ -86,8 +81,8 @@ const IndexPage = () => (
         <h2>Informasjon</h2>
         <Paragraph>
           Knowit Objectnet arrangerer to fagseminarer årlig. Det er de ansatte
-          selv som lager programmet. Våren 2019 vil den bli avholdt 21. Mars -
-          22. Mars 2019 i Strømstad, Sverige.
+          selv som lager programmet. Våren 2019 vil den bli avholdt 22. Mars -
+          23. Mars 2019 i Strømstad, Sverige.
         </Paragraph>
         <Paragraph>
           Tidligere har vi besøkt Berlin, Istanbul, Madrid, Dublin, Svalbard,
@@ -95,7 +90,7 @@ const IndexPage = () => (
         </Paragraph>
       </StyledContentInfo>
       <CodeOfConduct />
-    </StyledContent>
+    </Content>
   </Layout>
 );
 

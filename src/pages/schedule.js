@@ -3,7 +3,6 @@ import Link from 'gatsby-link';
 import styled from '@emotion/styled';
 import { css } from '@emotion/core';
 import viewmodel from '../json';
-import Paragraph from '../components/Paragraph';
 import ButtonGroup from '../components/ButtonGroup';
 import Button from '../components/Button';
 import Slot from '../components/Slot';

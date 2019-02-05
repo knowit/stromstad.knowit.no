@@ -3,8 +3,6 @@ import PropTypes from 'prop-types';
 import styled from '@emotion/styled';
 import { css } from '@emotion/core';
 import colors from '../../util/colors';
-import Person from '../Icons/Person';
-
 import Cross from '../Icons/Cross';
 import Button from '../Button';
 

@@ -1,17 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { css } from '@emotion/core';
 import Link from 'gatsby-link';
 import viewmodel from '../../json';
 
-
 const Village = ({ villageId }) => {
-    const village = viewmodel.villages.find(vill => villageId === vill.id);
-    console.log(villageId, viewmodel, village)
-  if (!village){
+  const village = viewmodel.villages.find(vill => villageId === vill.id);
+  if (!village) {
     return null;
   }
-
   return (
     <li>
       <Link to={village.path}>{village.name}</Link>
@@ -20,7 +16,7 @@ const Village = ({ villageId }) => {
 };
 
 Village.propTypes = {
-  village: PropTypes.object,
+  villageId: PropTypes.string,
 };
 
 export default Village;

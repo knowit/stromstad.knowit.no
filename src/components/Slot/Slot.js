@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { slotClasses } from './';
 import BreakSlot from './BreakSlot';
 import EntriesSlot from './EntriesSlot';
 import OtherSlot from './OtherSlot';

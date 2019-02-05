@@ -3,9 +3,7 @@ import PropTypes from 'prop-types';
 import Link, { withPrefix } from 'gatsby-link';
 import styled from '@emotion/styled';
 import { css } from '@emotion/core';
-import Talk from './Talk';
 import colors from '../../util/colors';
-import mediaQueries from '../../util/mediaQueries';
 import Person from '../Icons/Person';
 
 const StyledTalkSpeakerImage = styled.img`

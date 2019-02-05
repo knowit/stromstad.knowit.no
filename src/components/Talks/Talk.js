@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from '@emotion/styled';
 import colors from '../../util/colors';
-import mediaQueries from '../../util/mediaQueries';
 import viewmodel from '../../json';
 import TalkDescription from './TalkDescription';
 import TalkSpeaker from './TalkSpeaker';

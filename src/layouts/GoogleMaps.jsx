@@ -8,7 +8,7 @@ const StyledGoogleMapsWrapper = styled.div`
   height: 100vh;
   width: 100vw;
   position: relative;
-`
+`;
 
 const StyledGoogleMapsBlocker = styled.div`
   position: absolute;
@@ -16,7 +16,7 @@ const StyledGoogleMapsBlocker = styled.div`
   right: 0;
   top: 0;
   bottom: 0;
-`
+`;
 
 const StyleGoogleMapsContent = styled.div`
   width: 350px;
@@ -33,39 +33,36 @@ const StyleGoogleMapsContent = styled.div`
     width: 60%;
     height: 240px;
   }
-`
+`;
 
 const StyledGoogleMaps = styled.iframe`
   height: 100vh;
   width: 100vw;
   border: none;
-`
+`;
 
 const GoogleMaps = () => {
   return (
-      <StyledGoogleMapsWrapper>
-        <StyledGoogleMapsBlocker />
-        <StyleGoogleMapsContent>
-          <h1>Lokasjon</h1>
-          <a
-            href="https://goo.gl/maps/hSfJEMs8Kz22"
-            target="_blank"
-            rel="noopener noreferrer">
-            <h3>Austria Trend Hotel </h3>
-          </a>
-          <a
-            href="https://goo.gl/maps/hSfJEMs8Kz22"
-            target="_blank"
-            rel="noopener noreferrer">
-            <h3>Dunajska cesta 154, 1000</h3>
-          </a>
-          <h3>Ljubljana</h3>
-        </StyleGoogleMapsContent>
-        <StyledGoogleMaps
-          src={viewmodel.event.gmapsUrl}
-          frameBorder="0"
-        />
-      </StyledGoogleMapsWrapper>
+    <StyledGoogleMapsWrapper>
+      <StyledGoogleMapsBlocker />
+      <StyleGoogleMapsContent>
+        <h1>Lokasjon</h1>
+        <a
+          href="https://goo.gl/maps/hSfJEMs8Kz22"
+          target="_blank"
+          rel="noopener noreferrer">
+          <h3>{viewmodel.event.venue}</h3>
+        </a>
+        <a
+          href="https://goo.gl/maps/hSfJEMs8Kz22"
+          target="_blank"
+          rel="noopener noreferrer">
+          <h3>{viewmodel.event.adress}</h3>
+        </a>
+        <h3>{viewmodel.event.city}</h3>
+      </StyleGoogleMapsContent>
+      <StyledGoogleMaps src={viewmodel.event.gmapsUrl} frameBorder="0" />
+    </StyledGoogleMapsWrapper>
   );
 };
 

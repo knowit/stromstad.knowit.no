@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { StyledSlot, StyledSlotTime, StyledSlotTitle } from './SlotStyles';
+import { StyledSlot, StyledSlotTime } from './SlotStyles';
 import Entries from '../Entries';
 
 const EntriesSlot = ({ collection }) => {

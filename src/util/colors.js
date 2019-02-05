@@ -1,8 +1,5 @@
 import darken from 'polished/lib/color/darken';
-import rgba from 'polished/lib/color/rgba';
 
-const dight = '#ceddea';
-const dark = '#184673';
 const greyLight = '#e8e3e3';
 const greyLightest = '#f8f8f8';
 

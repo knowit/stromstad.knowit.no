@@ -1,13 +1,20 @@
 const viewmodel = {
-  title: 'Fagseminar høst 2018',
+  title: 'Fagseminar vår 2019',
   event: {
-    date: '19. oktober - 22. oktober 2018',
-    longDate: '19. oktober - 22. oktober 2018',
-    venue: 'Austria Trend Hotel, Dunajska cesta 154, 1000 Ljubljana',
-    city: 'Ljubljana',
-    country: 'Slovenia',
+    date: '22. mars - 23. mars 2019',
+    longDate: '22. mars - 23. mars 2018',
+    venue: 'Strömstad Spa & Resort',
+    adress: 'Kebalvägen 229, 452 40 Strömstad',
+    city: 'Strømstad',
+    country: 'Sverige',
     gmapsUrl:
-      'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2767.464257241591!2d14.51138181585606!3d46.08172270004596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476532e8018ac3f7%3A0xfdd77079c72ef36c!2sAustria+Trend+Hotel+Ljubljana!5e0!3m2!1sen!2sno!4v1537198204127',
+      'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d8232.859042323511!2d11.1589928!3d58.9445901!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe723ee18fbd70d92!2sStr%C3%B6mstad+Spa+%26+Resort!5e0!3m2!1sno!2sno!4v1549401021242',
+  },
+  meta: {
+    title: 'Knowit Objectnet Fagseminar 2018',
+    description:
+      'Knowit Objectnet arrangerer to fagseminarer årlig. Det er de ansatte selv som lager programmet. Høsten 2018 vil den bli avholdt 19. oktober - 22. oktober 2018 i Ljubljana, Slovenia.',
+    keywords: 'Fagseminar, Ljubljana, Fag',
   },
   schedules: [
     {

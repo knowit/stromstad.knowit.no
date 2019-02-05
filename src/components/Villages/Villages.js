@@ -3,20 +3,20 @@ import PropTypes from 'prop-types';
 import Village from './Village';
 
 const Villages = ({ villages }) => {
-  console.log(villages)
-  if (!villages || villages.length === 0){
+  if (!villages || villages.length === 0) {
     return null;
   }
-
   return (
     <ul>
-      {villages.map(villageId => <Village key={villageId} villageId={villageId} />)}
+      {villages.map(villageId => (
+        <Village key={villageId} villageId={villageId} />
+      ))}
     </ul>
   );
 };
 
 Villages.propTypes = {
-  village: PropTypes.object,
+  village: PropTypes.arrayOf(PropTypes.string),
 };
 
 export default Villages;
