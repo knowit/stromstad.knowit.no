@@ -1,19 +1,23 @@
 import React from 'react';
 import Link from 'gatsby-link';
+import styled from '@emotion/styled';
+import { css } from '@emotion/core';
 import viewmodel from '../json';
 import Paragraph from '../components/Paragraph';
 import ButtonGroup from '../components/ButtonGroup';
 import Arrow from '../components/Icons/Arrow';
 import CodeOfConduct from '../components/CodeOfConduct';
 import Layout from '../layouts';
-import styled from '@emotion/styled';
+import colors from '../util/colors';
 
 const StyledIntroContent = styled.div`
   min-height: 50vh;
   justify-content: space-between;
   position: relative;
-  background-color: var(--main-color);
+  background-color: ${colors.primary};
   z-index: 33;
+  color: white;
+
   & > * {
     margin: 0 auto;
     text-align: center;
@@ -42,6 +46,18 @@ const StyledContentInfo = styled.div`
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 `;
 
+const linkStyle = css`
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+
+  &:hover,
+  &:focus,
+  &:visited {
+    color: white;
+  }
+`;
+
 const IndexPage = () => (
   <Layout>
     <StyledContent>
@@ -55,8 +71,12 @@ const IndexPage = () => (
           </Paragraph>
         </div>
         <ButtonGroup>
-          <Link to="/villages/">Villages</Link>
-          <Link to="/schedule/">Skjema</Link>
+          <Link to="/schedule/" css={linkStyle}>
+            Skjema
+          </Link>
+          <Link to="/speakers/" css={linkStyle}>
+            Talere
+          </Link>
         </ButtonGroup>
         <a href="#info">
           <Arrow />

@@ -52,9 +52,7 @@ const viewmodel = {
         {
           time: '09:00-13:00',
           title: 'Villages',
-          villages: [
-            '1'
-          ]
+          villages: ['1'],
         },
         {
           time: '13:00',
@@ -65,9 +63,7 @@ const viewmodel = {
           title: 'Buss tilbake til Lakkegata 53',
         },
       ],
-      villages: [
-        '1'
-      ]
+      villages: ['1'],
     },
   ],
   talks: {
@@ -87,7 +83,14 @@ const viewmodel = {
         'Knowit Objectnet må hele tiden tilpasse seg markedet. Vi går fra å være teknologileverandør til partner med kundene våre. Hvilke nye ting driver vi med?',
     },
   },
-  villages: [{ id: '1', name: 'Test village', markdown: '## test' }],
+  villages: [
+    {
+      id: '1',
+      path: '/village/testmarkdown.md',
+      name: 'Test village',
+      markdown: '## test',
+    },
+  ],
 };
 
 export default viewmodel;

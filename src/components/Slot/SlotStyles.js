@@ -17,7 +17,7 @@ const slotTitleStyles = {
     border: 1px solid ${colors.greyLight};
     background-color: white;
     color: black;
-    @media(${mediaQueries.medium}) {
+    @media (${mediaQueries.medium}) {
       border-left: none;
       border-right: none;
     }
@@ -29,7 +29,7 @@ const StyledSlot = styled.div`
   display: flex;
   flex-flow: row;
 
-  @media(${mediaQueries.medium}) {
+  @media (${mediaQueries.medium}) {
     flex-flow: column;
   }
 `;
@@ -38,7 +38,7 @@ const StyledSlotTime = styled.span`
   align-self: center;
   width: 10%;
 
-  @media(${mediaQueries.medium}) {
+  @media (${mediaQueries.medium}) {
     align-self: center;
     width: 100%;
     text-align: center;
@@ -49,7 +49,7 @@ const StyledSlotTime = styled.span`
 const StyledSlotTitle = styled.div`
   padding: 1rem 0;
   width: 90%;
-  @media(${mediaQueries.medium}) {
+  @media (${mediaQueries.medium}) {
     padding: 1rem 0;
     font-weight: bold;
     width: 100%;

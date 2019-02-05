@@ -23,12 +23,12 @@ const pickDayButtonsStyle = css`
   @media (${mediaQueries.medium}) {
     display: none;
   }
-`
+`;
 
 const buttonStyle = css`
   border-radius: 0;
   box-shadow: none;
-`
+`;
 
 const StyledSelect = styled.select`
   border-radius: 0;
@@ -41,10 +41,23 @@ const StyledSelect = styled.select`
   @media (${mediaQueries.medium}) {
     display: block;
   }
-`
+`;
 
 const StyledHeader = styled.h1`
   margin: 0 auto;
+`;
+
+const linkStyle = css`
+  text-transform: uppercase;
+  color: ${colors.primary};
+  font-size: 1.2rem;
+  text-transform: uppercase;
+
+  &:hover,
+  &:focus,
+  &:visited {
+    color: ${colors.primary};
+  }
 `;
 
 class SchedulePage extends React.Component {
@@ -63,7 +76,7 @@ class SchedulePage extends React.Component {
   }
 
   onSelectChange(evt) {
-    this.setState({ activeIndex: evt.target.value });  
+    this.setState({ activeIndex: evt.target.value });
   }
 
   render() {
@@ -78,8 +91,12 @@ class SchedulePage extends React.Component {
       <Content backgroundColor={colors.greyLightest}>
         <StyledHeader>Skjema</StyledHeader>
         <ButtonGroup css={buttonGroupStyle}>
-          <Link to="/">Forside</Link>
-          <Link to="/speakers/">Talere</Link>
+          <Link to="/" css={linkStyle}>
+            Forside
+          </Link>
+          <Link to="/speakers/" css={linkStyle}>
+            Talere
+          </Link>
         </ButtonGroup>
         <ButtonGroup css={pickDayButtonsStyle}>
           {viewmodel.schedules.map((day, index) => (

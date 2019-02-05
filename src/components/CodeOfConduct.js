@@ -16,11 +16,9 @@ const StyledCodeOfConductText = styled.p`
   display: ${p => (p.hidden ? 'none' : 'block')};
 
   @media (${mediaQueries.medium}) {
-      max-width: 90%;
+    max-width: 90%;
   }
 `;
-
-
 
 class CodeOfConduct extends React.Component {
   constructor() {

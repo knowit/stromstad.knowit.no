@@ -16,15 +16,31 @@ const StyledHeader = styled.h1`
   margin: 0 auto;
 `;
 
+const linkStyle = css`
+  text-transform: uppercase;
+  color: ${colors.primary};
+  font-size: 1.2rem;
+  text-transform: uppercase;
+
+  &:hover,
+  &:focus,
+  &:visited {
+    color: ${colors.primary};
+  }
+`;
+
 const SpeakersPage = props => {
   const hash = props.location.hash;
   return (
     <Content backgroundColor={colors.greyLightest}>
       <StyledHeader>Talere</StyledHeader>
       <ButtonGroup css={buttonGroupStyle}>
-        <Link to="/">Forside</Link>
-        <Link to="/schedule/">Skjema</Link>
-        <Link to="/villages/">Villages</Link>
+        <Link to="/" css={linkStyle}>
+          Forside
+        </Link>
+        <Link to="/schedule/" css={linkStyle}>
+          Skjema
+        </Link>
       </ButtonGroup>
       <ContentContainer>
         {Object.keys(viewmodel.talks).map(key => (

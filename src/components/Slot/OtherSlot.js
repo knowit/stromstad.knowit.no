@@ -15,7 +15,7 @@ const OtherSlot = ({ collection }) => {
       <StyledSlotTime>{collection.time}</StyledSlotTime>
       <StyledSlotTitle background="white">
         <StyledSpan>{collection.title}</StyledSpan>
-        <Villages villages={collection.villages}/>
+        <Villages villages={collection.villages} />
       </StyledSlotTitle>
     </StyledSlot>
   );

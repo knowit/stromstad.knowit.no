@@ -14,7 +14,7 @@ const Village = ({ villageId }) => {
 
   return (
     <li>
-      <Link to={`/villages#${villageId}`}>{village.name}</Link>
+      <Link to={village.path}>{village.name}</Link>
     </li>
   );
 };

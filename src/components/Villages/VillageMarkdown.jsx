@@ -7,6 +7,7 @@ import Content, { ContentContainer } from '../Content';
 import colors from '../../util/colors';
 import spacing from '../../util/spacing';
 import ButtonGroup from '../ButtonGroup';
+import markdownStyle from './markdownStyle';
 
 const buttonGroupStyle = css`
   margin: 2rem auto;
@@ -32,9 +33,10 @@ const VillageMarkdown = ({
             <Link to="/villages/">Villages</Link>
         </ButtonGroup>
         <ContentContainer>
-        <StyledMarkdownContainer
-          dangerouslySetInnerHTML={{ __html: html }}
-        />
+          <StyledMarkdownContainer
+            css={markdownStyle}
+            dangerouslySetInnerHTML={{ __html: html }}
+          />
         </ContentContainer>
     </Content>
   )

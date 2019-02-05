@@ -2,8 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import Header from '../components/Header';
-import '../css/index.css';
 import viewmodel from '../json';
+import GoogleMaps from './GoogleMaps';
 
 const DefaultLayout = ({ children }) => {
   return (
@@ -24,30 +24,7 @@ const DefaultLayout = ({ children }) => {
         />
       </Helmet>
       {children}
-      <div className="google-maps-wrapper">
-        <div className="google-maps-blocker" />
-        <div className="google-maps-content">
-          <h1>Lokasjon</h1>
-          <a
-            href="https://goo.gl/maps/hSfJEMs8Kz22"
-            target="_blank"
-            rel="noopener noreferrer">
-            <h3>Austria Trend Hotel </h3>
-          </a>
-          <a
-            href="https://goo.gl/maps/hSfJEMs8Kz22"
-            target="_blank"
-            rel="noopener noreferrer">
-            <h3>Dunajska cesta 154, 1000</h3>
-          </a>
-          <h3>Ljubljana</h3>
-        </div>
-        <iframe
-          className="google-maps"
-          src={viewmodel.event.gmapsUrl}
-          frameBorder="0"
-        />
-      </div>
+      <GoogleMaps />
     </div>
   );
 };
