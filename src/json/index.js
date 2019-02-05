@@ -48,6 +48,7 @@ const viewmodel = {
           title: 'Middag',
         },
       ],
+      villages: ['1'],
     },
     {
       day: 'Lørdag 23. Mars',
@@ -95,7 +96,11 @@ const viewmodel = {
       id: '1',
       path: '/village/testmarkdown.md',
       name: 'Test village',
-      markdown: '## test',
+    },
+    {
+      id: '2',
+      path: '/village/testmarkdown.md',
+      name: 'En annen test village',
     },
   ],
 };
