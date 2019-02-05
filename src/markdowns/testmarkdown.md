@@ -1,5 +1,7 @@
 ---
 path: "/village/testmarkdown.md"
+date: "2019"
+title: "Test village"
 ---
 # Knowit Strømstad
 
