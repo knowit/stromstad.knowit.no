@@ -30,7 +30,6 @@ const StyledIntroContent = styled.div`
 const StyledLogo = styled.img`
   width: 200px;
   margin: 0 auto;
-  height: 200px;
 `;
 
 const StyledContentInfo = styled.div`
@@ -57,7 +56,7 @@ const IndexPage = () => (
   <Layout>
     <Content>
       <StyledIntroContent>
-        <StyledLogo src="./static/ljubljana_logo.png" />
+        <StyledLogo src="./static/logo.png" />
         <h1>{viewmodel.title}</h1>
         <div>
           <Paragraph color="white">Tid: {viewmodel.event.date}</Paragraph>

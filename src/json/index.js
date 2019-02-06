@@ -11,10 +11,10 @@ const viewmodel = {
       'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d8232.859042323511!2d11.1589928!3d58.9445901!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe723ee18fbd70d92!2sStr%C3%B6mstad+Spa+%26+Resort!5e0!3m2!1sno!2sno!4v1549401021242',
   },
   meta: {
-    title: 'Knowit Objectnet Fagseminar 2018',
+    title: 'Knowit Objectnet Fagseminar 2019',
     description:
-      'Knowit Objectnet arrangerer to fagseminarer årlig. Det er de ansatte selv som lager programmet. Høsten 2018 vil den bli avholdt 19. oktober - 22. oktober 2018 i Ljubljana, Slovenia.',
-    keywords: 'Fagseminar, Ljubljana, Fag',
+      'Knowit Objectnet arrangerer to fagseminarer årlig. Det er de ansatte selv som lager programmet. Våren 2019 vil den bli avholdt 22. mars - 23. mars 2010 i Strømstad, Sverige.',
+    keywords: 'Fagseminar, Strømstad, Fag, Villages',
   },
   schedules: [
     {
@@ -42,13 +42,13 @@ const viewmodel = {
         {
           time: '15:00-18:00',
           title: 'Villages',
+          villages: ['1', '2'],
         },
         {
           time: '20:00',
           title: 'Middag',
         },
       ],
-      villages: ['1'],
     },
     {
       day: 'Lørdag 23. Mars',
@@ -71,7 +71,6 @@ const viewmodel = {
           title: 'Buss tilbake til Lakkegata 53',
         },
       ],
-      villages: ['1'],
     },
   ],
   talks: {
