@@ -48,9 +48,6 @@ const VillageMarkdown = ({
         <Link to="/schedule/" css={linkStyle}>
           Skjema
         </Link>
-        <Link to="/villages/" css={linkStyle}>
-          Villages
-        </Link>
       </ButtonGroup>
       <ContentContainer>
         <StyledMarkdownContainer
