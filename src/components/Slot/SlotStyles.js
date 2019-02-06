@@ -2,6 +2,7 @@ import styled from '@emotion/styled';
 import { css } from '@emotion/core';
 import colors from '../../util/colors';
 import mediaQueries from '../../util/mediaQueries';
+import spacing from '../../util/spacing';
 
 const slotTitleStyles = {
   grey: css`
@@ -25,6 +26,10 @@ const StyledSlot = styled.div`
   margin-top: 1rem;
   display: flex;
   flex-flow: row;
+
+  &:last-child {
+    margin-bottom: ${spacing.large};
+  }
 
   @media (${mediaQueries.medium}) {
     flex-flow: column;

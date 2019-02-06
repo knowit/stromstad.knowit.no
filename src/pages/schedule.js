@@ -25,8 +25,8 @@ const pickDayButtonsStyle = css`
 
 const StyledSelect = styled.select`
   border-radius: 0;
-  height: 3rem;
-  width: 80%;
+  height: 4rem;
+  width: 100%;
   background-color: white;
   margin: 0 auto;
   display: none;

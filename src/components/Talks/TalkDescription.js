@@ -18,6 +18,7 @@ const descriptionButtonStyle = css`
 
 const StyledTalkDescription = styled.span`
   margin-top: 0.2rem;
+  margin-left: 0.2rem;
   display: block;
 `;
 
@@ -25,7 +26,7 @@ const DESCRIPTION_LENGTH = 100;
 
 const shortDescription = description => {
   if (description.length > DESCRIPTION_LENGTH) {
-    return `${description.substring(0, 100)}... Les mer`;
+    return `${description.substring(0, 100)}... <b>Les mer</b>`;
   }
   return description;
 };

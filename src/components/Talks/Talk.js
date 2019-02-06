@@ -20,6 +20,10 @@ const StyledTalk = styled.div`
   display: flex;
 `;
 
+const StyledTalkTitle = styled.strong`
+  margin-left: 0.2rem;
+`;
+
 const StyledTalkInfo = styled.div`
   display: inline-block;
   margin-left: 2rem;
@@ -68,7 +72,7 @@ class Talk extends React.Component {
         </StyledTalkSpeakers>
 
         <StyledTalkInfo>
-          <strong>{talk.title}</strong>
+          <StyledTalkTitle>{talk.title}</StyledTalkTitle>
           <TalkDescription
             description={talk.description}
             showDescription={this.state.showDescription}
