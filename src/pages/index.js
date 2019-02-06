@@ -56,7 +56,7 @@ const IndexPage = () => (
   <Layout>
     <Content>
       <StyledIntroContent>
-        <StyledLogo src="./static/logo.png" />
+        <StyledLogo alt="Strømstad Knowit logo" src="./static/logo.png" />
         <h1>{viewmodel.title}</h1>
         <div>
           <Paragraph color="white">Tid: {viewmodel.event.date}</Paragraph>
