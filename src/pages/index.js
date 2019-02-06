@@ -10,7 +10,7 @@ import Arrow from '../components/Icons/Arrow';
 import CodeOfConduct from '../components/CodeOfConduct';
 import Layout from '../layouts';
 import colors from '../util/colors';
-
+import spacing from '../util/spacing';
 const StyledIntroContent = styled.div`
   min-height: 50vh;
   justify-content: space-between;
@@ -30,6 +30,7 @@ const StyledIntroContent = styled.div`
 const StyledLogo = styled.img`
   width: 200px;
   margin: 0 auto;
+  margin-bottom: ${spacing.large};
 `;
 
 const StyledContentInfo = styled.div`
