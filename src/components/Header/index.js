@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from 'gatsby-link';
+import SafeLink from '../SafeLink';
 
 const Header = () => (
   <div
@@ -14,14 +14,14 @@ const Header = () => (
         padding: '1.45rem 1.0875rem',
       }}>
       <h1 style={{ margin: 0 }}>
-        <Link
+        <SafeLink
           to="/"
           style={{
             color: 'white',
             textDecoration: 'none',
           }}>
           Gatsby
-        </Link>
+        </SafeLink>
       </h1>
     </div>
   </div>

@@ -5,7 +5,7 @@ const greyLightest = '#f8f8f8';
 
 export default {
   primary: '#007bba',
-  secondary: '#007bbab3',
+  secondary: '#28334A',
   grey: '#777777',
   greyLight: greyLight,
   greyLighter: '#eff0f2',

@@ -1,14 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
-import Link from 'gatsby-link';
 import styled from '@emotion/styled';
 import { css } from '@emotion/core';
-import Content, { ContentContainer } from '../Content';
+import Content, { ContentContainer, TopContent } from '../Content';
 import colors from '../../util/colors';
 import spacing from '../../util/spacing';
 import ButtonGroup from '../ButtonGroup';
 import markdownStyle from './markdownStyle';
+import SafeLink from '../SafeLink';
 
 const buttonGroupStyle = css`
   margin: 2rem auto;
@@ -23,14 +23,14 @@ const StyledMarkdownContainer = styled.div`
 
 const linkStyle = css`
   text-transform: uppercase;
-  color: ${colors.primary};
+  color: white;
   font-size: 1.2rem;
   text-transform: uppercase;
 
   &:hover,
   &:focus,
   &:visited {
-    color: ${colors.primary};
+    color: white;
   }
 `;
 
@@ -41,14 +41,16 @@ const VillageMarkdown = ({
   const { html } = markdownRemark;
   return (
     <Content backgroundColor={colors.greyLightest}>
-      <ButtonGroup css={buttonGroupStyle}>
-        <Link to="/" css={linkStyle}>
-          Forside
-        </Link>
-        <Link to="/schedule/" css={linkStyle}>
-          Skjema
-        </Link>
-      </ButtonGroup>
+      <TopContent backgroundColor={colors.knowit.green}>
+        <ButtonGroup css={buttonGroupStyle}>
+          <SafeLink to="/" css={linkStyle}>
+            Forside
+          </SafeLink>
+          <SafeLink to="/schedule/" css={linkStyle}>
+            Skjema
+          </SafeLink>
+        </ButtonGroup>
+      </TopContent>
       <ContentContainer>
         <StyledMarkdownContainer
           css={markdownStyle}

@@ -1,14 +1,14 @@
 import React from 'react';
-import Link from 'gatsby-link';
 import styled from '@emotion/styled';
 import { css } from '@emotion/core';
 import viewmodel from '../json';
 import ButtonGroup from '../components/ButtonGroup';
 import Button from '../components/Button';
 import Slot from '../components/Slot';
-import Content, { ContentContainer } from '../components/Content';
+import Content, { ContentContainer, TopContent } from '../components/Content';
 import colors from '../util/colors';
 import mediaQueries from '../util/mediaQueries';
+import SafeLink from '../components/SafeLink';
 
 const buttonGroupStyle = css`
   margin: 2rem auto;
@@ -16,17 +16,11 @@ const buttonGroupStyle = css`
 
 const pickDayButtonsStyle = css`
   margin: 0 auto;
-  margin-bottom: -1rem;
   z-index: 1;
 
   @media (${mediaQueries.medium}) {
     display: none;
   }
-`;
-
-const buttonStyle = css`
-  border-radius: 0;
-  box-shadow: none;
 `;
 
 const StyledSelect = styled.select`
@@ -48,14 +42,14 @@ const StyledHeader = styled.h1`
 
 const linkStyle = css`
   text-transform: uppercase;
-  color: ${colors.primary};
+  color: white;
   font-size: 1.2rem;
   text-transform: uppercase;
 
   &:hover,
   &:focus,
   &:visited {
-    color: ${colors.primary};
+    color: white;
   }
 `;
 
@@ -88,20 +82,22 @@ class SchedulePage extends React.Component {
     }
     return (
       <Content backgroundColor={colors.greyLightest}>
-        <StyledHeader>Skjema</StyledHeader>
-        <ButtonGroup css={buttonGroupStyle}>
-          <Link to="/" css={linkStyle}>
-            Forside
-          </Link>
-          <Link to="/speakers/" css={linkStyle}>
-            Talere
-          </Link>
-        </ButtonGroup>
+        <TopContent>
+          <StyledHeader>Skjema</StyledHeader>
+          <ButtonGroup css={buttonGroupStyle}>
+            <SafeLink to="/" css={linkStyle}>
+              Forside
+            </SafeLink>
+            <SafeLink to="/speakers/" css={linkStyle}>
+              Talere
+            </SafeLink>
+          </ButtonGroup>
+        </TopContent>
+
         <ButtonGroup css={pickDayButtonsStyle}>
           {viewmodel.schedules.map((day, index) => (
             <Button
               key={day.day}
-              css={buttonStyle}
               appearance={this.state.activeIndex === index ? 'active' : ''}
               onClick={evt => this.onDayClick(evt, index)}>
               {day.day}
@@ -113,7 +109,6 @@ class SchedulePage extends React.Component {
             <option
               key={day.day}
               value={index}
-              css={buttonStyle}
               onClick={evt => this.onDayClick(evt, index)}>
               {day.day}
             </option>
