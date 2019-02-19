@@ -21,19 +21,6 @@ const StyledMarkdownContainer = styled.div`
   margin-top: ${spacing.normal};
 `;
 
-const linkStyle = css`
-  text-transform: uppercase;
-  color: white;
-  font-size: 1.2rem;
-  text-transform: uppercase;
-
-  &:hover,
-  &:focus,
-  &:visited {
-    color: white;
-  }
-`;
-
 const VillageMarkdown = ({
   data, // this prop will be injected by the GraphQL query below.
 }) => {
@@ -43,10 +30,10 @@ const VillageMarkdown = ({
     <Content backgroundColor={colors.greyLightest}>
       <TopContent backgroundColor={colors.knowit.green}>
         <ButtonGroup css={buttonGroupStyle}>
-          <SafeLink to="/" css={linkStyle}>
+          <SafeLink hoverColor={colors.knowit.green} to="/">
             Forside
           </SafeLink>
-          <SafeLink to="/schedule/" css={linkStyle}>
+          <SafeLink hoverColor={colors.knowit.green} to="/schedule/">
             Skjema
           </SafeLink>
         </ButtonGroup>

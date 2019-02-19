@@ -41,15 +41,17 @@ const StyledHeader = styled.h1`
 `;
 
 const linkStyle = css`
-  text-transform: uppercase;
+  padding: 0.8rem 3rem;
+  background-color: ${colors.primary};
+  text-decoration: none;
   color: white;
   font-size: 1.2rem;
-  text-transform: uppercase;
+  border: 2px solid white;
 
   &:hover,
-  &:focus,
-  &:visited {
-    color: white;
+  &:focus {
+    color: ${colors.primary};
+    background-color: white;
   }
 `;
 

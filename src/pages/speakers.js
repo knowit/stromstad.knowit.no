@@ -22,8 +22,12 @@ const SpeakersPage = props => {
       <TopContent backgroundColor={colors.secondary}>
         <StyledHeader>Talere</StyledHeader>
         <ButtonGroup css={buttonGroupStyle}>
-          <SafeLink to="/">Forside</SafeLink>
-          <SafeLink to="/schedule/">Skjema</SafeLink>
+          <SafeLink hoverColor={colors.secondary} to="/">
+            Forside
+          </SafeLink>
+          <SafeLink hoverColor={colors.secondary} to="/schedule/">
+            Skjema
+          </SafeLink>
         </ButtonGroup>
       </TopContent>
       <ContentContainer>
