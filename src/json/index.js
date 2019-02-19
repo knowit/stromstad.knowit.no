@@ -60,7 +60,7 @@ const viewmodel = {
         {
           time: '09:00-13:00',
           title: 'Villages',
-          villages: ['1'],
+          villages: ['1', '2'],
         },
         {
           time: '13:00',
@@ -93,13 +93,13 @@ const viewmodel = {
   villages: [
     {
       id: '1',
-      path: '/village/testmarkdown.md',
-      name: 'Test village',
+      path: '/village/creativevillage.md',
+      name: 'Creative Village',
     },
     {
       id: '2',
-      path: '/village/testmarkdown.md',
-      name: 'En annen test village',
+      path: '/village/likestromstad.md',
+      name: 'Likestrømstad',
     },
   ],
 };
