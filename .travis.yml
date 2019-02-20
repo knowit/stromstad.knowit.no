@@ -6,12 +6,10 @@ before_install:
   - export PATH="$HOME/.yarn/bin:$PATH"
 after_success:
   - npm run build
-before_deploy:
-  - sed -i '/^public\/$/d' .gitignore
-  - cd public
 deploy:
   provider: pages
   skip-cleanup: true
+  local-dir: public
   github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
   keep-history: true
   on:
