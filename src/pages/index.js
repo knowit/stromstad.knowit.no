@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from '@emotion/styled';
+import { withPrefix } from 'gatsby-link';
 import viewmodel from '../json';
 import Content from '../components/Content';
 import Paragraph from '../components/Paragraph';
@@ -54,7 +55,7 @@ const IndexPage = () => (
   <Layout>
     <Content>
       <StyledIntroContent backgroundColor={colors.secondary}>
-        <StyledLogo alt="Strømstad Knowit logo" src="./static/logo.png" />
+        <StyledLogo alt="Strømstad Knowit logo" src={withPrefix("/static/logo.png")} />
       </StyledIntroContent>
       <StyledIntroContent>
         <h1>{viewmodel.title}</h1>
