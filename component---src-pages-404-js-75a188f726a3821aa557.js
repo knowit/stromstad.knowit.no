@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[3],{136:function(n,e,i){"use strict";i.r(e);var t=i(7);i(0);e.default=function(){return Object(t.d)("div",null,Object(t.d)("h1",null,"Ups"),Object(t.d)("p",null,"Denne siden finnes ikke :("))}}}]);
-//# sourceMappingURL=component---src-pages-404-js-75a188f726a3821aa557.js.map

@@ -1,0 +1,45 @@
+{
+  "name": "stromstad.knowit.no",
+  "description": "Fagseminar side for Knowit",
+  "version": "1.0.0",
+  "author": "Christian Peter <christian.peter@knowit.no>",
+  "devDependencies": {
+    "prettier": "^1.11.1"
+  },
+  "dependencies": {
+    "@emotion/core": "^10.0.6",
+    "@emotion/styled": "^10.0.6",
+    "@material-ui/icons": "^3.0.2",
+    "gatsby": "^2.0.106",
+    "gatsby-link": "^2.0.6",
+    "gatsby-plugin-emotion": "^4.0.1",
+    "gatsby-plugin-postcss": "^2.0.3",
+    "gatsby-plugin-react-helmet": "^3.0.5",
+    "gatsby-source-filesystem": "^2.0.20",
+    "gatsby-transformer-remark": "^2.2.3",
+    "gh-pages": "^2.0.1",
+    "polished": "^2.3.3",
+    "prop-types": "^15.6.2",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-emotion": "^10.0.0",
+    "react-helmet": "^5.2.0",
+    "react-spring": "^7.2.10"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build --prefix-paths",
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "format": "prettier --write 'src/**/*(*.js|*.jsx)'",
+    "test": "echo \"Error: no test specified ( ͡° ͜ʖ ͡°)\"",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d public",
+    "prettier": "node prettier.js write",
+    "lint": "yarn run lint-prettier",
+    "lint-prettier": "node prettier.js lint"
+  }
+}
