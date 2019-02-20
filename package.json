@@ -38,6 +38,8 @@
     "test": "echo \"Error: no test specified ( ͡° ͜ʖ ͡°)\"",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d public",
+    "predeploy-ci": "npm run build",
+    "deploy-ci": "node ghpagesScript.js",
     "prettier": "node prettier.js write",
     "lint": "yarn run lint-prettier",
     "lint-prettier": "node prettier.js lint"
