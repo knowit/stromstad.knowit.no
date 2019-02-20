@@ -8,15 +8,20 @@ const Villages = ({ villages }) => {
   }
   return (
     <ul>
-      {villages.map(villageId => (
-        <Village key={villageId} villageId={villageId} />
+      {villages.map(village => (
+        <Village key={village.path} village={village} />
       ))}
     </ul>
   );
 };
 
 Villages.propTypes = {
-  village: PropTypes.arrayOf(PropTypes.string),
+  villages: PropTypes.arrayOf(
+    PropTypes.shape({
+      path: PropTypes.string.isRequired,
+      name: PropTypes.string.isRequired,
+    }),
+  ),
 };
 
 export default Villages;

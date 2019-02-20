@@ -1,3 +1,22 @@
+const villages = [
+  {
+    path: '/village/creativevillage.md',
+    name: 'Creative Village',
+  },
+  {
+    path: '/village/likestromstad.md',
+    name: 'Likestrømstad',
+  },
+  {
+    path: '/village/artificial_village_plan.md',
+    name: 'Artificial Village',
+  },
+  {
+    path: '/village/villagegaudi.md',
+    name: 'Village Gaudi',
+  },
+];
+
 const viewmodel = {
   title: 'Fagseminar vår 2019',
   event: {
@@ -42,7 +61,7 @@ const viewmodel = {
         {
           time: '15:00-18:00',
           title: 'Villages',
-          villages: ['1', '2'],
+          villages,
         },
         {
           time: '20:00',
@@ -60,7 +79,7 @@ const viewmodel = {
         {
           time: '09:00-13:00',
           title: 'Villages',
-          villages: ['1', '2'],
+          villages,
         },
         {
           time: '13:00',
@@ -90,18 +109,7 @@ const viewmodel = {
         'Knowit Objectnet må hele tiden tilpasse seg markedet. Vi går fra å være teknologileverandør til partner med kundene våre. Hvilke nye ting driver vi med?',
     },
   },
-  villages: [
-    {
-      id: '1',
-      path: '/village/creativevillage.md',
-      name: 'Creative Village',
-    },
-    {
-      id: '2',
-      path: '/village/likestromstad.md',
-      name: 'Likestrømstad',
-    },
-  ],
+  villages: [],
 };
 
 export default viewmodel;

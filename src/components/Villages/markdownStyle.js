@@ -287,12 +287,15 @@ SOFTWARE.
 
   table {
     padding: 0;
+    border-collapse: collapse;
   }
+
   table tr {
     border-top: 1px solid #cccccc;
     background-color: white;
     margin: 0;
     padding: 0;
+    min-height: 51px;
   }
 
   table tr:nth-child(2n) {
