@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/knowit/stromstad.knowit.no.svg?branch=master)](https://travis-ci.org/knowit/stromstad.knowit.no)
+
 # Knowit Strømstad
 
 Created with [Gatsby](https://www.gatsbyjs.org/).
