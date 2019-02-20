@@ -35,7 +35,7 @@
     "develop": "gatsby develop",
     "start": "gatsby develop",
     "format": "prettier --write 'src/**/*(*.js|*.jsx)'",
-    "test": "echo \"Error: no test specified ( ͡° ͜ʖ ͡°)\" && exit 1",
+    "test": "echo \"Error: no test specified ( ͡° ͜ʖ ͡°)\"",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d public",
     "prettier": "node prettier.js write",
