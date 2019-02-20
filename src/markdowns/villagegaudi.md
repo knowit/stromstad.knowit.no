@@ -5,7 +5,7 @@ title: "Village Gaudi"
 ---
 # Village Gaudi
 
-Arkitektur, veien videre og Strategi!
+Arkitektur, litt strategi og veien videre for Objectnet!
 
 
 ### Fredag (3timer) - Arkitektur
@@ -18,7 +18,7 @@ Lyst til å diskutere arkitektur? Her kan du komme innom og oppleve det du vil i
 | 30 min | Arkitektur Case-presentasjoner | Elastic Search fra Folkeregisteret (Rune My) <br> Kafka - Petabyte Høyvolum streaming data - Equinor (Espen) |
 | 10 min | Pause |
 | 30 min | Arkitektur lyntaler | XX- NN <br> XX- NN <br> XX- NN <br> |
-| 25 min | Hva er poenget med strategi? | En teoretisk vri, eksempel fra fagstrategien til Objetnet. <br> Hvorfor er strategiarbeid viktig. <br> Hvordan bør det gå en rød tråd fra virksomhetens visjon og mål, gjennom strategien til våre induviduelle personlige mål. <br> Hvordan man konkret kan jobbe med utvikling og forankring av strategi |
+| 25 min | Hva er poenget med strategi? | En teoretisk vri, eksempel fra fagstrategien til Objectnet (Thomas Malt). <br> Hvorfor er strategiarbeid viktig. <br> Hvordan bør det gå en rød tråd fra virksomhetens visjon og mål, gjennom strategien til våre induviduelle personlige mål. <br> Hvordan man konkret kan jobbe med utvikling og forankring av strategi |
 | 5 min | Pause |
 | 10 min | Open space rigging |
 | 20 min | Open Space 1 |
