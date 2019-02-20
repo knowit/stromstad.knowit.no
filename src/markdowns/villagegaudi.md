@@ -8,7 +8,7 @@ title: "Village Gaudi"
 Arkitektur, litt strategi og veien videre for Objectnet!
 
 
-### Fredag (3timer) - Arkitektur
+### Fredag (3 timer) - Arkitektur
 
 Lyst til å diskutere arkitektur? Her kan du komme innom og oppleve det du vil innenfor denne varierte landsbyen!
 
