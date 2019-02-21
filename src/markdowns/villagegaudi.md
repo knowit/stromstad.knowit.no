@@ -16,11 +16,11 @@ Lyst til å diskutere arkitektur? Her kan du komme innom og oppleve det du vil i
 | ------ | ------ | ------ |
 | 30 min | Arkitektur Lyntaler | XX- NN <br> XX- NN <br> XX- NN <br> |
 | 30 min | Arkitektur Case-presentasjoner | `- Elastic Search - Folkeregisteret` (Rune My) <br> `- Kafka - Petabyte Høyvolum streaming data - Equinor` (Espen) |
-| 10 min | Pause |
+| 5 min | Pause |
 | 30 min | Arkitektur Case-presentasjoner | ` - Skyarkitektur i AWS - NSB` (Imre og Henning W) <br> ` - Hva skjer egentlig på Entur?` - Entur (Lars) <br> |
 | 25 min | Hva er poenget med strategi? | `En teoretisk vri, eksempel fra fagstrategien til Objectnet` (Thomas Malt). <br> * Hvorfor er strategiarbeid viktig. <br> * Hvordan bør det gå en rød tråd fra virksomhetens visjon og mål, gjennom strategien til våre induviduelle personlige mål. <br> * Hvordan man konkret kan jobbe med utvikling og forankring av strategi |
 | 5 min | Pause |
-| 10 min | Open space rigging |
+| 15 min | Open space rigging |
 | 20 min | Open Space 1 |
 | 20 min | Open Space 2 |
 
