@@ -6,6 +6,8 @@ title: "Web Village"
 
 # Web Village program
 
+The Web Chapter stiller med workshops og konkurranser til fagseminaret.
+
 ## Mini-workshop - React Hooks
 React hooks er all the rage disse dager. Unngå å lage et wrapper helvete. (aka render props) Få en kjapp introduksjon til React hooks i denne mini-workshoppen.
 
