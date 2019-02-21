@@ -1,3 +1,9 @@
+---
+path: "/village/webvillage.md"
+date: "2019"
+title: "Web Village"
+---
+
 # Web Village program
 
 ## Mini-workshop - React Hooks
