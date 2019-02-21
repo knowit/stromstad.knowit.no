@@ -19,6 +19,10 @@ const villages = [
     path: '/village/security.md',
     name: 'Security Village',
   },
+  {
+    path: '/village/webvillage.md',
+    name: 'Web Village',
+  },
 ];
 
 const viewmodel = {
