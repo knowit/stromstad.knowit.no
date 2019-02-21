@@ -15,6 +15,10 @@ const villages = [
     path: '/village/villagegaudi.md',
     name: 'Village Gaudi',
   },
+  {
+    path: '/village/security.md',
+    name: 'Security Village',
+  },
 ];
 
 const viewmodel = {
