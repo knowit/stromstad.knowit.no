@@ -10,6 +10,7 @@ Rust er et programmeringsspråk som fokuserer på ytelse, sikkerhet og samtidigh
 ## Program
 ### Fredag
 Vi starter med en video fra Florian Gilcher som forklarer nettopp hvorfor Rust er kult. Deretter følger vi opp med talks av varierende lengde.
+
 | Når   | Hva                                 | Hvem                 |
 |-------|-------------------------------------|----------------------|
 | 15:00 | Why is Rust Successful?             | Florian Gilcher (video)      |
