@@ -27,6 +27,10 @@ const villages = [
     path: 'village/jubileumsvillage.md',
     name: 'JubileumsVillage',
   },
+  {
+    path: 'village/rustyvillage.md',
+    name: 'The Rusty Village',
+  },
 ];
 
 const viewmodel = {
