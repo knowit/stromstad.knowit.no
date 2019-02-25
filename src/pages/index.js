@@ -55,7 +55,10 @@ const IndexPage = () => (
   <Layout>
     <Content>
       <StyledIntroContent backgroundColor={colors.secondary}>
-        <StyledLogo alt="Strømstad Knowit logo" src={withPrefix("/static/logo.png")} />
+        <StyledLogo
+          alt="Strømstad Knowit logo"
+          src={withPrefix('/static/logo.png')}
+        />
       </StyledIntroContent>
       <StyledIntroContent>
         <h1>{viewmodel.title}</h1>
