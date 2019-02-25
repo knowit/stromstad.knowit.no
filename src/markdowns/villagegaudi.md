@@ -29,10 +29,10 @@ På tide å løfte blikket? Være med på hva vi tenker rundt strategi og retnin
 
 | Tid | Tittel | Beskrivelse | Ansvarlig |
 | ------ | ------ | ------ | ------ |
-| 0900-0950 | **Fellesskap** | Skape trivsel for enkeltmennesker | Lars Ivar / Bård |
+| 0900-0950 | **Fellesskap** | Skape trivsel for enkeltmennesker. Stikkord: intervjuprosess, rekruttering, mentoring, medarbeideroppfølging, sosiale eventer, alumni, ++ | Lars Ivar / Bård |
 | 0950-1000 | Pause | | |
-| 1000-1050 | **Forståelse** | Være «best på faglig utvikling» ved å forvalte effektive & relevante kunnskapsnettverk. | Jan Henrik / Arne |
+| 1000-1050 | **Forståelse** | Være «best på faglig utvikling» ved å forvalte effektive & relevante kunnskapsnettverk. Stikkord: forskning, chapters, guilds, team- og techlead-skolene, fagseminarer, konferanser ++| Jan Henrik / Arne |
 | 1050-1100 | Pause | | |
-| 1100-1150 | **Verdier** | Gjøre det enkelt å velge oss, ved å være relevante og ved å gjøre hverandre gode. | |
+| 1100-1150 | **Verdier** | Gjøre det enkelt å velge oss, ved å være relevante og ved å gjøre hverandre gode. Stikkord: Kundeteam, bemanning, principal engineers, eventer, SoMe, CreativeCrew, tilbud, avrop, satsningsområder, ++ | Erik N |
 | 1150-1200 | pause | | |
-| 1200-1250 | **Rykte** | Bli oppfattet som seriøs aktør innenfor ønskede domener | |
+| 1200-1250 | **Rykte** | Bli oppfattet som seriøs aktør innenfor ønskede domener. Stikkord: Økonomistyring, drift, ekstern oppfattelse, kultur ++ | Kristin |
