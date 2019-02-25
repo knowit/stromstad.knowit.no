@@ -68,12 +68,22 @@ const viewmodel = {
           title: 'Avreise med buss fra Lakkegata 53',
         },
         {
-          time: '14:00-14:45',
+          time: '14:00-14:30',
           title: 'Felles',
           entries: [
             {
               room: 'Armaria',
               slots: ['internmeet'],
+            },
+          ],
+        },
+        {
+          time: '14:30-15:00',
+          title: 'Felles',
+          entries: [
+            {
+              room: 'Armaria',
+              slots: ['mobility'],
             },
           ],
         },
@@ -84,7 +94,7 @@ const viewmodel = {
         },
         {
           time: '15:00-18:00',
-          title: 'Villages',
+          title: 'Villages - flere landsbyer med konferanser du kan besøke. Her er valget ditt, følg med på programmet. Det er mulig å bytte village hver hele time!',
           villages,
         },
         {
@@ -102,7 +112,7 @@ const viewmodel = {
         },
         {
           time: '09:00-13:00',
-          title: 'Villages',
+          title: 'Villages - flere landsbyer med konferanser du kan besøke. Her er valget ditt, følg med på programmet. Det er mulig å bytte village hver hele time!',
           villages,
         },
         {
@@ -130,7 +140,22 @@ const viewmodel = {
       title: 'Internmøte',
       type: 'Talk',
       description:
-        'Knowit Objectnet må hele tiden tilpasse seg markedet. Vi går fra å være teknologileverandør til partner med kundene våre. Hvilke nye ting driver vi med?',
+        'Mars 2019 internmøte.',
+    },
+    mobility: {
+      pending: false,
+      speakers: [
+        {
+          name: 'Erik Nylund',
+          bio: '',
+          email: 'etn@knowit.no',
+          pic: 'etn.jpg',
+        },
+      ],
+      title: 'Mobilitet og smarte byer!',
+      type: 'Talk',
+      description:
+        'Erik forteller om et av våre satsningsområder: Mobilitet! Hva ligger i mobilitet? Hvorfor skal vi drive med det? Og hva er smarte byer?',
     },
   },
   villages: [],
