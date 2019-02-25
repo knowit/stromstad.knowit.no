@@ -35,6 +35,10 @@ const villages = [
     path: 'village/peoplevillage.md',
     name: 'People Village',
   },
+  {
+    path: 'village/kotlinkoolaid.md',
+    name: 'Kotlin Koolaid',
+  },
 ];
 
 const viewmodel = {
