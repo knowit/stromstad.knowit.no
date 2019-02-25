@@ -30,7 +30,7 @@ To build, run:
 yarn build
 ```
 
-To deploy, run:
+To deploy, run (when pushing to master, the application is automatically deployed):
 ```
 yarn deploy
 ```
