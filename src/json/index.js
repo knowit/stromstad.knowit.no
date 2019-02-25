@@ -31,6 +31,10 @@ const villages = [
     path: 'village/rustyvillage.md',
     name: 'The Rusty Village',
   },
+  {
+    path: 'village/peoplevillage.md',
+    name: 'People Village',
+  },
 ];
 
 const viewmodel = {
