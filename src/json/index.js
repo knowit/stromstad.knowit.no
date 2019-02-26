@@ -2,42 +2,52 @@ const villages = [
   {
     path: '/village/creativevillage.md',
     name: 'Creative Village',
+    icon: 'creativecrew',
   },
   {
     path: '/village/likestromstad.md',
     name: 'Likestrømstad',
+    icon: 'hardwareguild',
   },
   {
     path: '/village/artificial_village_plan.md',
     name: 'Artificial Village',
+    icon: 'artificial',
   },
   {
     path: '/village/villagegaudi.md',
     name: 'Village Gaudi',
+    icon: 'architecture',
   },
   {
     path: '/village/security.md',
     name: 'Security Village',
+    icon: 'securitychapter',
   },
   {
     path: '/village/webvillage.md',
     name: 'Web Village',
+    icon: 'webchapter',
   },
   {
     path: 'village/jubileumsvillage.md',
     name: 'JubileumsVillage',
+    icon: 'jubilee',
   },
   {
     path: 'village/rustyvillage.md',
     name: 'The Rusty Village',
+    icon: 'rustguild',
   },
   {
     path: 'village/peoplevillage.md',
     name: 'People Village',
+    icon: 'person',
   },
   {
     path: 'village/kotlinkoolaid.md',
     name: 'Kotlin Koolaid',
+    icon: 'jvmchapter',
   },
 ];
 
@@ -88,13 +98,14 @@ const viewmodel = {
           ],
         },
         {
-          time: '14:45-15:00',
+          time: '15:00-15:05',
           title: 'Pause',
           isBreak: true,
         },
         {
-          time: '15:00-18:00',
-          title: 'Villages - flere landsbyer med konferanser du kan besøke. Her er valget ditt, følg med på programmet. Det er mulig å bytte village hver hele time!',
+          time: '15:05-18:00',
+          title:
+            'Villages - flere landsbyer med konferanser du kan besøke. Her er valget ditt, følg med på programmet. Det er mulig å bytte village hver hele time!',
           villages,
         },
         {
@@ -112,7 +123,8 @@ const viewmodel = {
         },
         {
           time: '09:00-13:00',
-          title: 'Villages - flere landsbyer med konferanser du kan besøke. Her er valget ditt, følg med på programmet. Det er mulig å bytte village hver hele time!',
+          title:
+            'Villages - flere landsbyer med konferanser du kan besøke. Her er valget ditt, følg med på programmet. Det er mulig å bytte village hver hele time!',
           villages,
         },
         {
@@ -139,8 +151,7 @@ const viewmodel = {
       ],
       title: 'Internmøte',
       type: 'Talk',
-      description:
-        'Mars 2019 internmøte.',
+      description: 'Mars 2019 internmøte.',
     },
     mobility: {
       pending: false,
