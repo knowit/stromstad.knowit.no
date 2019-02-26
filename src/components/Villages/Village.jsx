@@ -26,14 +26,12 @@ const StyledVillage = styled.div`
   color: white;
   align-items: center;
   flex-direction: column;
-  margin: ${spacing.normal};
   justify-content: center;
   font-weight: 600;
   & svg {
     height: 80px;
     width: 80px;
     fill: white;
-    margin-top: ${spacing.normal};
   }
 
   @media (${mediaQueries.medium}) {
@@ -41,7 +39,16 @@ const StyledVillage = styled.div`
   }
 `;
 
+const StyledText = styled.span`
+  margin-top: ${spacing.small};
+  display: block;
+`;
+
 const StyledLink = styled(Link)`
+  text-align: center;
+  color: ${colors.primary};
+  margin: ${spacing.normal};
+
   &,
   &:active,
   &:visited,
@@ -59,6 +66,10 @@ const StyledLink = styled(Link)`
     & svg {
       fill: ${colors.primary};
     }
+  }
+
+  @media (${mediaQueries.medium}) {
+    margin: ${spacing.normal} auto;
   }
 `;
 const villageIcon = {
@@ -80,10 +91,8 @@ const Village = ({ village }) => {
   }
   return (
     <StyledLink to={village.path}>
-      <StyledVillage>
-        {village.name}
-        {villageIcon[village.icon]}
-      </StyledVillage>
+      <StyledVillage>{villageIcon[village.icon]}</StyledVillage>
+      <StyledText>{village.name}</StyledText>
     </StyledLink>
   );
 };
