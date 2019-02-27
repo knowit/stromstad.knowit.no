@@ -81,8 +81,8 @@ const IndexPage = () => (
         <h2>Informasjon</h2>
         <Paragraph>
           Knowit Objectnet arrangerer to fagseminarer årlig. Det er de ansatte
-          selv som lager programmet. Våren 2019 vil den bli avholdt 22. Mars -
-          23. Mars 2019 i Strømstad, Sverige.
+          selv som lager programmet. Våren 2019 vil den bli avholdt 22. mars -
+          23. mars 2019 i Strømstad, Sverige.
         </Paragraph>
         <StyledDivder />
         <Paragraph>
