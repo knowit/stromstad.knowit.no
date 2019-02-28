@@ -7,7 +7,7 @@ title: "Creative Crew"
 # Creative Village - The Imaginarium
 
 
-Kortfilm, musikkvideo, dokumentar, mockumentary, animasjon. Tenk Blair Witch, tenk Borat, tenk Michael Moore, tenk Sauen Shaun. Dere bestemmer, vi fasiliteter. Du kan bli i 3 minutter eller alle 7 timene, det er opp til deg, men dere bygger hele tiden på det som til enhver tid finnes av materiale. 
+Kortfilm, musikkvideo, dokumentar, mockumentary, animasjon. Tenk Blair Witch, tenk Borat, tenk Michael Moore, tenk Sauen Shaun. Dere bestemmer, vi fasiliteter. Du kan bli i 3 minutter eller alle 7 timene, det er opp til deg, men dere bygger hele tiden på det som til enhver tid finnes av materiale som deltakerne før deg har laget. 
 
 
 Vi skal lære dere det dere trenger å vite om historiefortelling, dramaturgi, hvordan bygge opp storyboards, filmteknikker, klipping og lydlegging. Vi har med green screen, clipper, kameraer og mikrofoner - det meste man trenger for å lage et mesterverk. Adobe Creative suite er tilgjengelig for redigering.
