@@ -132,7 +132,7 @@ const viewmodel = {
           title: 'Lunsj',
         },
         {
-          time: '16:00',
+          time: '15:00',
           title: 'Buss tilbake til Lakkegata 53',
         },
       ],
