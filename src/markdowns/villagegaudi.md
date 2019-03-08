@@ -31,7 +31,7 @@ På tide å løfte blikket? Være med på hva vi tenker rundt strategi og retnin
 | ------ | ------ | ------ | ------ |
 | 0900-0950 | **Fellesskap** | Skape trivsel for enkeltmennesker. Stikkord: intervjuprosess, rekruttering, mentoring, medarbeideroppfølging, sosiale eventer, alumni, ++ | Lars Ivar / Bård |
 | 0950-1000 | Pause | | |
-| 1000-1050 | **Forståelse** | Være «best på faglig utvikling» ved å forvalte effektive & relevante kunnskapsnettverk. Stikkord: forskning, chapters, guilds, team- og techlead-skolene, fagseminarer, konferanser ++| Jan Henrik / Arne |
+| 1000-1050 | **Forståelse** | I Knowit Objectnet har vi som mål å være best i bransjen på faglig utvikling. I denne sesjonen har du mulighet til å være med å diskutere hvordan vi skal utvikle dette videre. I innledningen vil Jan Henrik redegjøre for dagens fagorganisering og strategiarbeidet som er gjort der, Arne vil si noe om forskningssamarbeidet vårt, og Lars Ivar vil si noe om hvordan vi jobber målrettet mot lærestedene. Deretter inviterer vi til en “Lean coffee” hvor alle kan diskutere.| Jan Henrik / Arne |
 | 1050-1100 | Pause | | |
 | 1100-1150 | **Verdier** | Gjøre det enkelt å velge oss, ved å være relevante og ved å gjøre hverandre gode. Stikkord: Kundeteam, bemanning, principal engineers, eventer, SoMe, CreativeCrew, tilbud, avrop, satsningsområder, ++ | Erik N |
 | 1150-1200 | Pause | | |
