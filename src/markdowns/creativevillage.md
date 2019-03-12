@@ -27,6 +27,12 @@ Film(ene) kommer til å bli vist på neste internmøte.
 
 Dere som vil være med å skape, kan allerede nå begynne å tenke på hva dere vil lage og ta med av rekvisitter og kostymer.
 
+## Eksempel
+
+Vi som arrangerer Creative Village har fulgt vårt eget konsept og laget en liten film på kort tid!
+
+[THE REDRUM](https://drive.google.com/file/d/1OhTNqth8QrYqTTJXqH6NIgmdUHJQBogs/view?usp=sharing)
+
 ## Program
 
 Husk, **du kan bli i 3 minutter eller alle 7 timene,** det er opp til deg, men dere bygger hele tiden på det som til enhver tid finnes av materiale som deltakerne før deg har laget.
