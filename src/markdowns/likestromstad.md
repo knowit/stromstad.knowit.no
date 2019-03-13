@@ -28,6 +28,8 @@ Dette er kurset for deg som er nysgjerrig på hvordan man programmerer bittesmå
 
 I dette kurset kommer du til å få enkel innføring i programmering av atmel- mikroprosessorerer ved hjelp av rammeverket arduino.
 
+Link til kurset: [https://knowit.github.io/arduino-intro/](https://knowit.github.io/arduino-intro/)
+
 #### Mer info
 * [arduino.cc](https://www.arduino.cc/)
 * [Lær kidsa koding: Arduino](https://kidsakoder.no/faqs/arduino/)
@@ -42,6 +44,8 @@ I dette kurset kommer du til å få enkel innføring i programmering av atmel- m
 ### IoT i praksis
 
 Dette kurset viser hvordan du enkelt kan lage en dings ved hjelp av mikrokontrolleren ESP32 som snakker med skyen på en sikker måte og bruker skikkelig skyløsninger (AWS IoT) som skalerer og gir god oversikt og administrasjon over dingsene dine.
+
+Link til kurset: [https://knowit.github.io/mongoose-aws-serverless/](https://knowit.github.io/mongoose-aws-serverless/)
 
 #### Mer info
 * [ESP på Wikipedia](https://en.wikipedia.org/wiki/ESP32)
@@ -79,7 +83,7 @@ Dette er også en mulighet til å fortsette å leke med innholdet i workshoppene
 ## Program
 |Dag|Post nr|Innhold                                | Tid (timer)|
 |---|---    |---                                    |---         |
-|1  | 1     | Innføring i Arduino (mikrokontroller) | 2          |
+|1  | 1     | [Innføring i Arduino (mikrokontroller)](https://knowit.github.io/arduino-intro/) | 2          |
 |1  | 2     | Åpen post/ makerspace                 | 1          |
-|2  | 3     | IoT i praksis                         | 3          |
+|2  | 3     | [IoT i praksis](https://knowit.github.io/mongoose-aws-serverless/)     | 3          |
 |2  | 4     | Åpen post/ makerspace                 | 1          |
