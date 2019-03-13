@@ -13,10 +13,8 @@ React hooks er all the rage disse dager. Unngå å lage et wrapper helvete. (aka
 
 Kom å lær det elementære om Hooks ved å refaktorere komponenter som bruker render props til å heller ta i bruk Hooks. Eller bare kom og jobb med Hooks slik du selv vil. Ditt valg.
 
-## Mini-workshop - Bli en GraphQL-hipster (1-2 timer)
-For deg som ennå ikke har satt deg _helt_ inn i det - her får du inn det basale med teskje - og vi holder en konkurranse om hvem som er den beste API-detektiven. Ingen forkunnskaper i Turing-komplett programmering er nødvendig. Passer for alle fra Sjefen til Graphisk designer.
-
-Kom på kant med nodene i denne data-drevne workshopen.
+## Mini-workshop - Graphyrinth: A Graphical JSON-based Adventure Game
+GraphQL er i vinden, og for å gjøre det kjekt å sette seg inn i protokollen så har vi laget ikke mindre enn et minispill med GraphQL-grensesnitt. Her trenger du altså ingen bachelor i hverken informatikk eller UX-design for å henge med, og får i en kjapp innledende presentasjon med deg det mest grunnleggende for å komme i gang med å gruse kollegene labyrintnavigasjon og puzzle-solving.
 
 ## Konkurranser
 Kom å bryn deg på noen kodekonkurranser! Her blir det mulighet til å konkurrere "1v1" eller mot alle, med mål som kanskje ikke er så vanlig for programmering til daglig. Alle konkurransene relateres til web eller programmering på web, og det kan kanskje være nyttig å ha vært med på en av workshoppene vi kjører hvis du vil ha en liten fordel.
