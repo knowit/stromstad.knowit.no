@@ -4,11 +4,12 @@ Rust er et programmeringsspråk som fokuserer på ytelse, sikkerhet og samtidigh
 ## Program
 ### Fredag
 Vi starter med en video fra Florian Gilcher som forklarer nettopp hvorfor Rust er kult. Deretter følger vi opp med talks av varierende lengde.
+
 | Når   | Hva                                 | Hvem                   |
 |-------|-------------------------------------|------------------------|
 | 15:00 | Why is Rust Successful?             | Florian Gilcher (video)|
 | 16:00 | Running Rust in AWS Lambda          | John-Olav Storvold     |
-| 16:30 | Macros under lupen 				  | Thomas Tøkje           |
+| 16:30 | Macros under lupen       | Thomas Tøkje           |
 | 17:00 | Svartekunsten å lage små binærfiler | Sverre Johann Bjørke   |
 | 17:30 | I'm a rocket man!                   | Marius Backer          |
 
