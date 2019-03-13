@@ -24,14 +24,14 @@ Roller som skal besettes underveis:
 
 Film(ene) kommer til å bli vist på neste internmøte.
 
-
 Dere som vil være med å skape, kan allerede nå begynne å tenke på hva dere vil lage og ta med av rekvisitter og kostymer.
 
 ## Eksempel
 
 Vi som arrangerer Creative Village har fulgt vårt eget konsept og laget en liten film på kort tid!
 
-[THE REDRUM](https://drive.google.com/file/d/1OhTNqth8QrYqTTJXqH6NIgmdUHJQBogs/view?usp=sharing)
+[![THE_REDRUM](https://img.youtube.com/vi/4gIKzBo4iFw/0.jpg)](https://www.youtube.com/watch?v=4gIKzBo4iFw)
+
 
 ## Program
 
