@@ -1,3 +1,8 @@
+---	
+path: "/village/rustyvillage.md"	
+date: "2019"	
+title: "The Rusty Village"	
+---
 # The Rusty Village 🦀
 Rust er et programmeringsspråk som fokuserer på ytelse, sikkerhet og samtidighet, og har raskt blitt et av de mest populære språkene i det siste. I Rust-villagen kan alle lære noe nytt, enten om du aldri har skrevet en eneste linje Rust, eller er en garvet Rustacean. 
 
