@@ -14,7 +14,7 @@ Likestrømstad er stedet for deg som
 * vil forstå litt om elektroniske kretser og hvordan man setter sammen noen enkle, mye brukte kretser
 * vil leke litt med strøm (som ikke gjør vondt) og elektroniske komponenter
 * lurer på hvordan man lodder (*)
-* vil forstår hvordan man enkelt lager skikkelig industristandard IoT i praksis ved hjelp av mikroprosessoren ESP32 og rammeverket MogooseOS
+* vi forstår hvordan man i praksis lager skikkelig industristandard IoT på en enkel måte ved hjelp av mikroprosessoren ESP32 og rammeverket MogooseOS
 
 Hvis du passer i en, flere eller alle av grupperingene over, bør du ta turen til Likestrømstad hvor du blir tatt i mot med åpne armer.
 
