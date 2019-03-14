@@ -30,9 +30,10 @@ Dere som vil være med å skape, kan allerede nå begynne å tenke på hva dere 
 
 Vi som arrangerer Creative Village har fulgt vårt eget konsept og laget en liten film på kort tid!
 
-[![THE_REDRUM](https://img.youtube.com/vi/4gIKzBo4iFw/0.jpg)](https://www.youtube.com/watch?v=4gIKzBo4iFw)
+[![THE REDRUM](https://img.youtube.com/vi/4gIKzBo4iFw/0.jpg)][1] ![THE REDRUM][2]
 
-![THE_REDRUM](https://chart.googleapis.com/chart?cht=qr&chl=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D4gIKzBo4iFw&chs=180x180&choe=UTF-8&chld=L|2)
+[1]: https://www.youtube.com/watch?v=4gIKzBo4iFw
+[2]: https://chart.googleapis.com/chart?cht=qr&chl=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D4gIKzBo4iFw&chs=180x180&choe=UTF-8&chld=L|2
 
 ## Program
 
