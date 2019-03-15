@@ -13,7 +13,7 @@ title: "Artificial Village"
 | 15:00-15:25 | Ole Barsch         |	 	TBA      |
 | 15:30-15:55 | Eirik Folkestad    | 	TBA      |
 | 16:00-16:25 | Ole Steinar Skrede | 	AI i 2018, tl;dr      |
-| 16:30-16:50 | Sverre Bjørke 	  |		TBA       |
+| 16:30-16:50 | Sverre Bjørke 	  |		CSI that shit!      |
 | 17:00-18:00 | Truls Fretland     |		Fra data til deploy - maskinlæring på AWS SageMaker      |
  
 
