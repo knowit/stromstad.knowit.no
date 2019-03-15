@@ -180,10 +180,11 @@ const viewmodel = {
     },
     pitcher: {
       pending: false,
-      speakers: [], 
-      title: 'Villagene presenteres', 
-      type: 'Talk', 
-      description: 'Hver Village får et minutt hver til å reklamere for seg selv.',
+      speakers: [],
+      title: 'Villagene presenteres',
+      type: 'Talk',
+      description:
+        'Hver Village får et minutt hver til å reklamere for seg selv.',
     },
   },
   villages: [],
