@@ -183,7 +183,7 @@ const viewmodel = {
       speakers: [], 
       title: 'Villagene presenteres', 
       type: 'Talk', 
-      description: 'Hver Village får et minutt til å reklamere for seg selv.',
+      description: 'Hver Village får et minutt hver til å reklamere for seg selv.',
     },
   },
   villages: [],
