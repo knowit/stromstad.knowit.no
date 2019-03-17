@@ -78,7 +78,7 @@ const viewmodel = {
           title: 'Avreise med buss fra Lakkegata 53',
         },
         {
-          time: '14:00-14:30',
+          time: '14:00-14:25',
           title: 'Felles',
           entries: [
             {
@@ -88,12 +88,22 @@ const viewmodel = {
           ],
         },
         {
-          time: '14:30-15:00',
+          time: '14:25-14:50',
           title: 'Felles',
           entries: [
             {
               room: 'Armaria',
               slots: ['mobility'],
+            },
+          ],
+        },
+        {
+          time: '14:50-15:00',
+          title: 'Felles',
+          entries: [
+            {
+              room: 'Armaria',
+              slots: ['pitcher'],
             },
           ],
         },
@@ -167,6 +177,14 @@ const viewmodel = {
       type: 'Talk',
       description:
         'Erik forteller om et av våre satsningsområder: Mobilitet! Hva ligger i mobilitet? Hvorfor skal vi drive med det? Og hva er smarte byer?',
+    },
+    pitcher: {
+      pending: false,
+      speakers: [],
+      title: 'Villagene presenteres',
+      type: 'Talk',
+      description:
+        'Hver Village får et minutt hver til å reklamere for seg selv.',
     },
   },
   villages: [],
