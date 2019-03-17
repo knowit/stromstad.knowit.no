@@ -10,8 +10,8 @@ title: "Security Village"
 
 |   Tid  |  Tittel    | Foredragsholder |
 | ----------- | -----------           | -----------|
-| 15:00 - 16:00 | Introducksjon til Kryptografi (Basic)         |       Aulon Mujaj      |
-| 15:15 - 18:00 | Workshop | Aulon Mujaj / Jonas Natten / Christopher Olsen |
+| 15:00 - 15:30 | Introducksjon til Kryptografi (Basic)         |       Aulon Mujaj      |
+| 15:45 - 18:00 | Workshop | Aulon Mujaj / Jonas Natten / Christopher Olsen |
 
 ## Lørdag 23. mars (09.00 - 13.00)
 ### Agenda: Workshop + Open Space
