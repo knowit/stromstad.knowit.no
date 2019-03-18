@@ -4,7 +4,7 @@ date: "2019"
 title: "People Village"
 ---
 
-#People Village
+# People Village
 Presentasjonsteknikk, kommunikasjon og lek!
 
 Dette er for deg som:
@@ -14,14 +14,17 @@ Dette er for deg som:
 - har ideer til foredrag men ikke er helt sikker på hvordan få gjennomført det
 - egentlig skulle på noe annet men gikk til feil rom
 
-Alt på programmet her passer for alle uansett nivå, og ingen forkunnskaper kreves.
+## FAQ
+- Passer det for meg? _Ja_!
+- Kreves noen forkunnskaper? _Nei_
+- Hva skiller denne villagen fra andre kurs i presentasjonsteknikk? _Her blir det lite teori men mye diskusjon og praksis, og det er garantert fritt for abstrakte kommunikasjonsmodeller. Det blir også morsommere._
 
 Tilbakemeldinger og spørsmål rettes til [Andreas Færøvig Olsen](andreas.olsen@knowit.no)
 
 ## Fredag (15–18)
 
-##### 15:00–15:50
-(Ennå ikke fastsatt)
+##### 15:00–15:50 Tilbakemeldinger og diskusjon
+Denne timen kan du gi og få tilbakemeldinger på skriving av abstracts, oppsett av keynotes eller andre former for tekst. Det er også mulighet for å trene på å holde et innlegg og få individuelle tilbakemeldinger.
 ##### 16:00–16:50 Presentasjonsteknikk del 1/2
 Presentasjonsteknikk handler om planlegging og gjennomføring av det å formidle et budskap. Vi skal innom temaer som kroppsspråk, stemmebruk, forberedelser, håndtering av nervøsitet og annet. Det blir en praktisk tilnærming til temaene med mye diskusjon.
 
@@ -34,14 +37,14 @@ Det er lett å bli nervøs når man skal holde en presentasjon. En viktig og rik
 
 ## Lørdag (9–13)
 
-##### 9:00–9:50   Tekstarbeid
-Denne timen kan du gi og få tilbakemeldinger på skriving av abstracts, oppsett av keynotes eller andre former for tekst. 
+##### 9:00–9:50   Tilbakemeldinger og diskusjon
+Denne timen kan du gi og få tilbakemeldinger på skriving av abstracts, oppsett av keynotes eller andre former for tekst. Det er også mulighet for å trene på å holde et innlegg og få individuelle tilbakemeldinger.
 
 ##### 10:00–10:50 Presentasjonsteknikk del 2/2
 Vi fortsetter med de gjenstående temaene innen presentasjonsteknikk. Her kan du delta selv om du ikke har vært på del 1 fra fredagen.
 
 ##### 11:00–11:50 Spontanitet og improvisasjon del 2/2
-Her kan du delta selv om du ikke har vært på del 1 fra fredagen.
+Vi fortsetter med de gjenstående temaene fra i går. Her kan du delta selv om du ikke har vært på del 1 fra fredagen.
 
 ##### 12:00–12:50 Open space
 Forslag til diskusjon:
