@@ -30,19 +30,22 @@ title: "Artificial Village"
 
 
 #### Workshops
-Vi kommer til å ha to forskjellige workshops:
+Vi kommer til å ha to forskjellige workshops.
 
-	- Introduksjon til AI: Create Your Own Music Recommendation System Using Machine Learning
-	- Reinforcement Learning: Pac-man
+**Introduksjon til AI: Create Your Own Music Recommendation System Using Machine Learning**
 
-	Beskrivelse kommer
+*Har du noen gang lurt på hvordan YouTube og Spotify anbefaler videoer og sanger? I dette kurset får du en introduksjon til maskinlæring basert på et praktisk use case. Vi kommer til å bruke Spotify sitt API for å hente ut features fra sanger, før vi visualiserer dataen, kjører clustering på dataen og trener opp et eget recommendation-system. For dette vil vi prøve ut forskjellige algoritmer, bl.a. nevrale nettverk, som det har vært mye snakk om de siste årene.*
 
+*Vi kommer til å bruke Python og ml-rammeverk som Keras og Sklearn.*
+
+**Reinforcement Learning: Pac-man**
+
+*Vi vil bruke reinforcement learning-metoder som Q-learning og Deep Q for å trene opp en AI som kan spille Pac-Man.*
 Formatet på workshopene vil være slik at man komme og gå når man vil. Dette blir mulig ved at vi på forhånd vil filme gjennomgang av teori og oppgaver, slik at man kan jobbe med workshop når det passer seg.
 
 #### Kahoot
 AI-kahoot med premie.
 
 #### Open Space
-Temaer kommer.
 
 Send mail til mangop@knowit.no eller mallol@knowit.no dersom dere har forslag til temaer ;)
