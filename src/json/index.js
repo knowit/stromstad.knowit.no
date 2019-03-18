@@ -78,7 +78,7 @@ const viewmodel = {
           title: 'Avreise med buss fra Lakkegata 53',
         },
         {
-          time: '14:00-14:25',
+          time: '14:10-14:30',
           title: 'Felles',
           entries: [
             {
@@ -88,7 +88,7 @@ const viewmodel = {
           ],
         },
         {
-          time: '14:25-14:50',
+          time: '14:30-14:50',
           title: 'Felles',
           entries: [
             {
@@ -99,21 +99,11 @@ const viewmodel = {
         },
         {
           time: '14:50-15:00',
-          title: 'Felles',
-          entries: [
-            {
-              room: 'Armaria',
-              slots: ['pitcher'],
-            },
-          ],
-        },
-        {
-          time: '15:00-15:05',
           title: 'Pause',
           isBreak: true,
         },
         {
-          time: '15:05-18:00',
+          time: '15:00-18:00',
           title:
             'Villages - flere landsbyer med konferanser du kan besøke. Her er valget ditt, følg med på programmet. Det er mulig å bytte village hver hele time!',
           villages,
@@ -150,18 +140,8 @@ const viewmodel = {
   ],
   talks: {
     internmeet: {
-      pending: false,
-      speakers: [
-        {
-          name: 'Christer Kjellesvig',
-          bio: '',
-          email: 'ckj@knowit.no',
-          pic: 'ckj.jpg',
-        },
-      ],
-      title: 'Internmøte',
-      type: 'Talk',
-      description: 'Mars 2019 internmøte.',
+      title: 'Velkommen til fagseminar!',
+      description: 'Jan Henrik ønsker velkommen til fagseminar. Linn forteller om Genus-prosjektet. Christer om Objectnet sine satsningsområder første halvår 2019, før hver village får et minutt hver til å reklamere for seg selv.',
     },
     mobility: {
       pending: false,
@@ -177,14 +157,6 @@ const viewmodel = {
       type: 'Talk',
       description:
         'Erik forteller om et av våre satsningsområder: Mobilitet! Hva ligger i mobilitet? Hvorfor skal vi drive med det? Og hva er smarte byer?',
-    },
-    pitcher: {
-      pending: false,
-      speakers: [],
-      title: 'Villagene presenteres',
-      type: 'Talk',
-      description:
-        'Hver Village får et minutt hver til å reklamere for seg selv.',
     },
   },
   villages: [],
