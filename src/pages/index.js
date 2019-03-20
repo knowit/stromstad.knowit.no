@@ -1,11 +1,12 @@
 import React from 'react';
 import styled from '@emotion/styled';
+import { css } from '@emotion/core';
 import { withPrefix } from 'gatsby-link';
+import ArrowDropDown from '@material-ui/icons/ArrowDropDown';
 import viewmodel from '../json';
 import Content from '../components/Content';
 import Paragraph from '../components/Paragraph';
 import ButtonGroup from '../components/ButtonGroup';
-import Arrow from '../components/Icons/Arrow';
 import CodeOfConduct from '../components/CodeOfConduct';
 import Layout from '../layouts';
 import colors from '../util/colors';
@@ -51,6 +52,12 @@ const StyledDivder = styled.div`
   margin: ${spacing.normal} auto;
 `;
 
+const arrowDropDownStyle = css`
+  color: white;
+  height: 50px;
+  width: 50px;
+`;
+
 const IndexPage = () => (
   <Layout>
     <Content>
@@ -74,7 +81,7 @@ const IndexPage = () => (
           <SafeLink to="/speakers/">Talere</SafeLink>
         </ButtonGroup>
         <a href="#info">
-          <Arrow />
+          <ArrowDropDown style={{ fontSize: 50 }} css={arrowDropDownStyle} />
         </a>
       </StyledIntroContent>
       <StyledContentInfo id="info">

@@ -9,10 +9,8 @@ const StyledTopContent = styled.div`
   padding: 2rem 0;
   margin-bottom: 2rem;
   display: flex;
-  display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
+  flex-direction: column;
+  justify-content: center;
 `;
 
 const TopContent = ({ children, ...rest }) => (
