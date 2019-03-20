@@ -81,9 +81,17 @@ Dette er også en mulighet til å fortsette å leke med innholdet i workshoppene
 * Elementær forståelse for strøm tilsvarende pensum på ungdomsskolen
 
 ## Program
-|Dag|Post nr|Innhold                                | Tid (timer)|
-|---|---    |---                                    |---         |
-|1  | 1     | [Innføring i Arduino (mikrokontroller)](https://knowit.github.io/arduino-intro/) | 2          |
-|1  | 2     | Åpen post/ makerspace                 | 1          |
-|2  | 3     | [IoT i praksis](https://knowit.github.io/mongoose-aws-serverless/)     | 3          |
-|2  | 4     | Åpen post/ makerspace                 | 1          |
+
+### Fredag
+
+| Tid         | Hva skjer?                                                                           |
+| ----------- | -----------------------------------------------------------------------------------  |
+| 1500 - 1700 | [Innføring i Arduino (mikrokontroller)](https://knowit.github.io/arduino-intro/)     |
+| 1700 - 1800 | Åpen post / makerspace (fri tukling med hardware)                                    |
+
+### Lørdag
+
+| Tid         | Hva skjer?                                                                           |
+| ----------- | -----------------------------------------------------------------------------------  |
+| 0900 - 1200 | [IoT i praksis](https://knowit.github.io/mongoose-aws-serverless/)                   |
+| 1200 - 1300 | Åpen post / makerspace (fri tukling med hardware)                                    |
