@@ -15136,7 +15136,7 @@ var viewmodel = {
       isBreak: true
     }, {
       time: '15:00-18:00',
-      title: 'Villages - flere landsbyer med konferanser du kan besøke. Her er valget ditt, følg med på programmet. Det er mulig å bytte village hver hele time!',
+      title: 'Villages - flere landsbyer med konferanser du kan besøke. Her er valget ditt, følg med på programmet. Det er mulig å bytte village underveis!',
       villages: villages
     }, {
       time: '20:00',
