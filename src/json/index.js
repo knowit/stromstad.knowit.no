@@ -78,7 +78,7 @@ const viewmodel = {
           title: 'Avreise med buss fra Lakkegata 53',
         },
         {
-          time: '14:10-14:30',
+          time: '14:00-14:30',
           title: 'Felles',
           entries: [
             {
@@ -147,19 +147,10 @@ const viewmodel = {
       type: 'Talks,',
     },
     mobility: {
-      pending: false,
-      speakers: [
-        {
-          name: 'Erik Nylund',
-          bio: '',
-          email: 'etn@knowit.no',
-          pic: 'etn.jpg',
-        },
-      ],
       title: 'Mobilitet og smarte byer!',
       type: 'Talk',
       description:
-        'Erik forteller om et av våre satsningsområder: Mobilitet! Hva ligger i mobilitet? Hvorfor skal vi drive med det? Og hva er smarte byer?',
+        'Erik N forteller om et av våre satsningsområder: Mobilitet! Hva ligger i mobilitet? Hvorfor skal vi drive med det? Og hva er smarte byer?',
     },
   },
   villages: [],

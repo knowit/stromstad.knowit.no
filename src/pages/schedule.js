@@ -85,13 +85,10 @@ class SchedulePage extends React.Component {
     return (
       <Content backgroundColor={colors.greyLightest}>
         <TopContent>
-          <StyledHeader>Skjema</StyledHeader>
+          <StyledHeader>Program</StyledHeader>
           <ButtonGroup css={buttonGroupStyle}>
             <SafeLink to="/" css={linkStyle}>
               Forside
-            </SafeLink>
-            <SafeLink to="/speakers/" css={linkStyle}>
-              Talere
             </SafeLink>
           </ButtonGroup>
         </TopContent>

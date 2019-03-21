@@ -77,8 +77,7 @@ const IndexPage = () => (
           </Paragraph>
         </div>
         <ButtonGroup>
-          <SafeLink to="/schedule/">Skjema</SafeLink>
-          <SafeLink to="/speakers/">Talere</SafeLink>
+          <SafeLink to="/schedule/">Program</SafeLink>
         </ButtonGroup>
         <a href="#info">
           <ArrowDropDown style={{ fontSize: 50 }} css={arrowDropDownStyle} />

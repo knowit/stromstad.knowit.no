@@ -30,11 +30,8 @@ const VillageMarkdown = ({
     <Content backgroundColor={colors.greyLightest}>
       <TopContent backgroundColor={colors.knowit.green}>
         <ButtonGroup css={buttonGroupStyle}>
-          <SafeLink hoverColor={colors.knowit.green} to="/">
-            Forside
-          </SafeLink>
           <SafeLink hoverColor={colors.knowit.green} to="/schedule/">
-            Skjema
+            Program
           </SafeLink>
         </ButtonGroup>
       </TopContent>
