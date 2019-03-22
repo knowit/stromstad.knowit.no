@@ -20,9 +20,9 @@ Vi vil kjøre en workshop hver dag i tillegg til kodekonkurranser.
 |10:00-12:00|Kodekonkurranse 2|
 
 ### Mini-workshop - React Hooks
-React hooks er all the rage disse dager. Unngå å lage et wrapper helvete. (aka render props) Få en kjapp introduksjon til React hooks i denne mini-workshoppen.
+React hooks er all the rage disse dager. Unngå å lage et wrapper helvete. (aka render props) Få en kjapp introduksjon til React hooks i denne mini-workshoppen. Eller bare kom og jobb med Hooks slik du selv vil. Ditt valg.
 
-Kom å lær det elementære om Hooks ved å refaktorere komponenter som bruker render props til å heller ta i bruk Hooks. Eller bare kom og jobb med Hooks slik du selv vil. Ditt valg.
+[Link til workshop](https://github.com/knowit/hooks-mini-workshop)
 
 ### Mini-workshop - Graphyrinth: A Graphical JSON-based Adventure Game
 GraphQL er i vinden, og for å gjøre det kjekt å sette seg inn i protokollen så har vi laget ikke mindre enn et minispill med GraphQL-grensesnitt. Her trenger du altså ingen bachelor i hverken informatikk eller UX-design for å henge med, og får i en kjapp innledende presentasjon med deg det mest grunnleggende for å komme i gang med å gruse kollegene labyrintnavigasjon og puzzle-solving.
