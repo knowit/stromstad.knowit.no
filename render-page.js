@@ -15151,7 +15151,7 @@ var viewmodel = {
   }],
   talks: {
     internmeet: {
-      title: 'Velkommen til fagseminar!',
+      title: 'Velkommen til fagseminar (... og kort internmøte)!',
       description: 'Jan Henrik ønsker velkommen til fagseminar. Linn forteller om Genus-prosjektet. Christer om Objectnet sine prioriteringer første halvår 2019, før hver village får et minutt hver til å reklamere for seg selv.',
       speakers: [],
       type: 'Talks,'
