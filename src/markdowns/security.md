@@ -28,13 +28,11 @@ Vi kommer til å ha tre forskjellige workshops:
 
   - Oppsett av Wireguard
   - Cryptobanken - Denne var en slager under Dragoncity, så da måtte den tilbake!
-  - Reverse Engineering - How to Reverse Engineer malware and exploits
-
-Formatet på workshopene vil være slik at man komme og gå når man vil. Dette blir mulig ved at vi på forhånd vil filme gjennomgang av teori og oppgaver, slik at man kan jobbe med workshop når det passer seg.
+  - Reverse Engineering - Hvordan endre en enkel applikasjon til å gjøre noe den ikke skal
 
 Det skal være mulig for folk å komme og gå som de vil under workshopene bortsett fra Wireguard workshopen, da denne vil ha en tidsbegrensning på 1 time. Det kan være vi lar den gå gjennom resten av dagen også.
 
-Liste over programvare som trengs til hver av disse workshopene vil komme her etter hvert
+Eneste som trengs av programvare er virtualbox, vi har med oss vm som har alt det du trenger :)
 
 
 #### Open Space - Security Chapter sin fremtid
